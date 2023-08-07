@@ -1,6 +1,6 @@
 ---
-title: "Support Vr"
-description: ""
+title: "Support VR"
+description: "Get support from the community or Pollen Robotics if you meet problems with the VR teleoperation app"
 date: 2023-07-26T09:00:44+02:00
 lastmod: 2023-07-26T09:00:44+02:00
 draft: false

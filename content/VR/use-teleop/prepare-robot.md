@@ -1,6 +1,6 @@
 ---
 title: "Set Reachy ready"
-description: ""
+description: "Prepare your robot for teleoperation"
 lead: "Prepare your robot for teleoperation"
 date: 2023-07-26T09:02:00+02:00
 lastmod: 2023-07-26T09:02:00+02:00

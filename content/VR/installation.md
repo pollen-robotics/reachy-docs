@@ -1,6 +1,6 @@
 ---
 title: "What needs to be installed"
-description: ""
+description: "How to install the VR teleoperation application"
 lead: "How to install the VR teleoperation application"
 date: 2023-07-26T09:00:02+02:00
 lastmod: 2023-07-26T09:00:02+02:00

@@ -1,6 +1,6 @@
 ---
 title: "Commands"
-description: ""
+description: "Controller inputs mapping for VR teleoperation"
 date: 2023-07-26T09:01:36+02:00
 lastmod: 2023-07-26T09:01:36+02:00
 draft: false

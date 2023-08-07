@@ -1,6 +1,6 @@
 ---
 title: "Debug"
-description: ""
+description: "Meeting a problem with teleoperation? Find out what can cause this and how to resolve the situation by yourself"
 date: 2023-07-26T09:00:50+02:00
 lastmod: 2023-07-26T09:00:50+02:00
 draft: false

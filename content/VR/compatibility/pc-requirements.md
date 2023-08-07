@@ -1,6 +1,6 @@
 ---
 title: "PC Requirements"
-description: ""
+description: "Get minimal VR requirements for the teleoperation app to run"
 date: 2023-07-26T08:59:23+02:00
 lastmod: 2023-07-26T08:59:23+02:00
 draft: false

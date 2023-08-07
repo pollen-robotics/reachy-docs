@@ -1,6 +1,6 @@
 ---
 title: "🚨 Best practice"
-description: ""
+description: "Simple guidelines to follow for a good usage of the VR teleoperation app"
 lead: "Towards a good usage of the VR teleoperation app"
 date: 2023-07-26T09:01:27+02:00
 lastmod: 2023-07-26T09:01:27+02:00

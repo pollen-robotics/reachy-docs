@@ -1,6 +1,6 @@
 ---
 title: "Introduction"
-description: ""
+description: "What is VR teleoperation application?"
 lead: "What is VR teleoperation application?"
 date: 2023-07-26T09:00:11+02:00
 lastmod: 2023-07-26T09:00:11+02:00

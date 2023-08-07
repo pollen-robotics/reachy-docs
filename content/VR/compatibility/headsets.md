@@ -1,6 +1,6 @@
 ---
 title: "Headsets"
-description: ""
+description: "Get compatible headsets list"
 date: 2023-07-26T08:59:13+02:00
 lastmod: 2023-07-26T08:59:13+02:00
 draft: false

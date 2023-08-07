@@ -1,6 +1,6 @@
 ---
 title: "Teleoperate Reachy"
-description: ""
+description: "Start and stop Reachy teleoperation using the VR app"
 lead: "How to use the VR teleoperation application"
 date: 2023-07-26T09:01:49+02:00
 lastmod: 2023-07-26T09:01:49+02:00
