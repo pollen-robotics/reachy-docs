@@ -1,6 +1,6 @@
 ---
 title: "Check which motors are connected"
-description: ""
+description: "Run the discovery tool and find out any missing element"
 date: 2023-07-26T08:46:34+02:00
 lastmod: 2023-07-26T08:46:34+02:00
 draft: false

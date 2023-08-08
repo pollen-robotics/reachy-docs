@@ -1,6 +1,6 @@
 ---
 title: "Plugging back a cable of Reachy's arm motor"
-description: ""
+description: "Reconnect a motor in the arm of the robot"
 date: 2023-07-26T08:47:14+02:00
 lastmod: 2023-07-26T08:47:14+02:00
 draft: false

@@ -1,6 +1,6 @@
 ---
 title: "Disconnected force sensor"
-description: ""
+description: "Reconnect the load sensor of the gripper"
 date: 2023-07-26T08:47:07+02:00
 lastmod: 2023-07-26T08:47:07+02:00
 draft: false

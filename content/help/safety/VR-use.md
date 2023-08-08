@@ -1,6 +1,6 @@
 ---
 title: "Use VR teleoperation"
-description: ""
+description: "Guidelines to use the VR teleoperation app safely, for you, the robot and the surrounding people"
 date: 2023-07-26T08:45:40+02:00
 lastmod: 2023-07-26T08:45:40+02:00
 draft: false

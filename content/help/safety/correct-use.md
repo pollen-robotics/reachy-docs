@@ -1,6 +1,6 @@
 ---
 title: "Use Reachy properly"
-description: ""
+description: "Guidelines to use Reachy safely, for you and the robot"
 date: 2023-07-26T08:45:34+02:00
 lastmod: 2023-07-26T08:45:34+02:00
 draft: false
