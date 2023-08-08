@@ -1,6 +1,6 @@
 ---
 title: "Teleoperation messages"
-description: "Understand warning and error messages"
+description: "Understand warning and error messages in the VR teleoperation app"
 lead: "Understand warning and error messages"
 date: 2023-07-26T09:01:43+02:00
 lastmod: 2023-07-26T09:01:43+02:00
