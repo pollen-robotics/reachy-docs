@@ -1,6 +1,6 @@
 ---
 title: "Full Installation Process"
-description: ""
+description: "What do you need to install for a full kit Reachy."
 lead: ""
 date: 2023-07-25T15:04:41+02:00
 lastmod: 2023-07-25T15:04:41+02:00

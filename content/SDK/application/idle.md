@@ -1,6 +1,6 @@
 ---
-title: "Hello World App"
-description: ""
+title: "Idle App"
+description: "A simple application to make Reachy move autonomously."
 date: 2023-07-25T17:37:56+02:00
 lastmod: 2023-07-25T17:37:56+02:00
 draft: false
@@ -15,7 +15,7 @@ toc: true
 
 ## What is this application
 
-The hello world application defines an idle mode for Reachy which can run autonomously.
+The idle application defines an idle mode for Reachy which can run autonomously.
 
 This project has been thought to:
 

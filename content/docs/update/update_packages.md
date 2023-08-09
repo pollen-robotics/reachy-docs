@@ -1,6 +1,6 @@
 ---
 title : "Update packages"
-description: "Update Reachy"
+description: "Update Reachy's software packages."
 lead: "Get latest version of Reachy software"
 date: 2023-07-25T15:15:22+02:00
 lastmod: 2023-07-25T15:15:22+02:00

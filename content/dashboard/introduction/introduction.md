@@ -1,6 +1,6 @@
 ---
 title: "Introduction"
-description: ""
+description: "Introduction to Reachy's dashboard."
 date: 2023-07-25T16:34:27+02:00
 lastmod: 2023-07-25T16:34:27+02:00
 draft: false

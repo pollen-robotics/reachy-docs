@@ -1,6 +1,6 @@
 ---
 title: "Available system services"
-description: ""
+description: "Core services running on Reachy."
 lead: ""
 date: 2023-07-26T08:05:23+02:00
 lastmod: 2023-07-26T08:05:23+02:00

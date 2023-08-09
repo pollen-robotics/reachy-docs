@@ -1,6 +1,6 @@
 ---
 title : "ROS2 Humble Packages"
-description: "ROS2 Humble Packages"
+description: "ROS2 Humble Packages for Reachy."
 lead: ""
 date: 2023-07-26T08:03:42+02:00
 lastmod: 2023-07-26T08:03:42+02:00

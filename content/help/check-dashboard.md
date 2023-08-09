@@ -1,6 +1,6 @@
 ---
 title : "Check the dashboard"
-description: ""
+description: "Use the dashboard to check Reachy's status and debug Reachy's issues and start applications."
 lead: "Find debug info on the dashboard"
 date: 2023-07-26T08:44:51+02:00
 lastmod: 2023-07-26T08:44:51+02:00

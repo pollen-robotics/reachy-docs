@@ -1,6 +1,6 @@
 ---
 title: "Introduction"
-description: ""
+description: "Introduction to the Python SDK."
 date: 2023-07-25T18:50:18+02:00
 lastmod: 2023-07-25T18:50:18+02:00
 draft: false

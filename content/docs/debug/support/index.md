@@ -1,6 +1,6 @@
 ---
 title: "Support"
-description: "Support."
+description: "Get help and support for Reachy."
 lead: "Can't solve your problem? Ask for help!"
 date: 2023-07-25T14:07:09+02:00
 lastmod: 2023-07-25T14:07:09+02:00

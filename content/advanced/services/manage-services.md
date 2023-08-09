@@ -1,6 +1,6 @@
 ---
 title: "Manage Reachy's services"
-description: ""
+description: "Manage Reachy's core services."
 lead: ""
 date: 2023-07-26T08:05:33+02:00
 lastmod: 2023-07-26T08:05:33+02:00

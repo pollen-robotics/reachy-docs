@@ -1,6 +1,6 @@
 ---
 title: "Dashboard"
-description: ""
+description: "Get an overview of your Reachy's state and access quickly some features with Reachy's dashboard."
 lead: ""
 date: 2023-07-25T14:16:21+02:00
 lastmod: 2023-07-25T14:16:21+02:00

@@ -1,6 +1,6 @@
 ---
 title: "Record and play trajectories"
-description: ""
+description: "Record and play trajectories on Reachy."
 lead: ""
 date: 2023-07-25T17:39:07+02:00
 lastmod: 2023-07-25T17:39:07+02:00

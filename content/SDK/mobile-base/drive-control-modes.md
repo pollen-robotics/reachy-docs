@@ -1,6 +1,6 @@
 ---
 title: "Advanced"
-description: "Drive modes and control modes description"
+description: "Drive modes and control modes description for the mobile base."
 date: 2023-07-26T08:32:17+02:00
 lastmod: 2023-07-26T08:32:17+02:00
 draft: false

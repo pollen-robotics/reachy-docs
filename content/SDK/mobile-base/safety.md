@@ -1,6 +1,6 @@
 ---
 title: "Anti-collision safety"
-description: "LIDAR based anti-collision behaviour"
+description: "LIDAR based anti-collision behaviour for the mobile base."
 date: 2023-07-26T08:37:55+02:00
 lastmod: 2023-07-26T08:37:55+02:00
 draft: false

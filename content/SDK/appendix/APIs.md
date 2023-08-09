@@ -1,6 +1,6 @@
 ---
 title : "APIs"
-description: "APIs"
+description: "Reachy SDK APIs documentation."
 lead: ""
 date: 2023-07-25T17:36:52+02:00
 lastmod: 2023-07-25T17:36:52+02:00

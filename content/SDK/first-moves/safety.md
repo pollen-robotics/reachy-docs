@@ -1,6 +1,6 @@
 ---
 title: "Safety first"
-description: "What you need to be aware of as a user to prevent Reachy from getting damaged and you from getting hurt."
+description: "What you need to be aware of as a user to prevent Reachy from getting damaged and you from getting hurt while working with the Python SDK."
 lead: "Before showing you how to control each part of the robot, let's talk a bit about safety, both for you and the robot."
 date: 2023-07-25T17:39:13+02:00
 lastmod: 2023-07-25T17:39:13+02:00

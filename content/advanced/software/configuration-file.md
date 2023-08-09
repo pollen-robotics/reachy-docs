@@ -1,6 +1,6 @@
 ---
 title: "Reachy's configuration file"
-description: ""
+description: "Reachy's configuration file is used to indicate which Reachy's configuration your robot has and whether a mobile base is connected to the robot or not."
 lead: ""
 date: 2023-07-26T08:05:52+02:00
 lastmod: 2023-07-26T08:05:52+02:00

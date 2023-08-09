@@ -1,6 +1,6 @@
 ---
 title: "Finding Reachy's IP"
-description: ""
+description: "Find Reachy's IP address to connect to it."
 date: 2023-07-25T18:49:56+02:00
 lastmod: 2023-07-25T18:49:56+02:00
 draft: false

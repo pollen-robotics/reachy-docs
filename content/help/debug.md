@@ -1,6 +1,6 @@
 ---
 title : "Quick Debug"
-description: "Quick Debug"
+description: "Quick Debug for Reachy's Python SDK."
 lead: ""
 date: 2023-07-26T08:45:02+02:00
 lastmod: 2023-07-26T08:45:02+02:00

@@ -1,6 +1,6 @@
 ---
 title: "Turn On"
-description: ""
+description: "Turn on Reachy."
 lead: ""
 date: 2023-07-25T14:16:46+02:00
 lastmod: 2023-07-25T14:16:46+02:00

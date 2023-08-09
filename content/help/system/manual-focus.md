@@ -1,6 +1,6 @@
 ---
 title: "Focus a camera manually"
-description: "Resolve blurred image with a manual focus"
+description: "Resolve blurred image with a manual focus."
 date: 2023-07-26T08:46:56+02:00
 lastmod: 2023-07-26T08:46:56+02:00
 draft: false

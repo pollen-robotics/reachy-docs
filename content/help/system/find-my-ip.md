@@ -1,6 +1,6 @@
 ---
 title: "Finding Reachy's IP"
-description: "Find Reachy IP to connect to the robot remotely, use the SDK or the teleoperation app"
+description: "Find Reachy IP to connect to the robot remotely, use the SDK or the teleoperation app."
 date: 2023-07-26T08:46:47+02:00
 lastmod: 2023-07-26T08:46:47+02:00
 draft: false
