@@ -45,9 +45,7 @@ The main package is [**reachy_2023**](https://github.com/pollen-robotics/reachy_
 
 - [**reachy_sdk_server**](https://github.com/pollen-robotics/reachy_2023/tree/master/reachy_sdk_server): creates two gRPC servers, *camera_server* to get the camera's images and control the motorised zooms and *reachy_sdk_server* for the joints, load sensors, fans and Orbita.
 
-<p align="center">
-  <img src="reachy-rviz.jpg" alt="drawing" width="90%"/>
-</p>
+{{< img-center "images/advanced/software/reachy-rviz.jpg" 800x "Reachy's visualised with Rviz" >}}
 
 ##### Mobile base
 The following package is only needed if you have a Reachy with mobile base:
@@ -101,7 +99,5 @@ gRPC clients can be in different programming languages. Currently, you can remot
 
 The diagram below sums up what has been described in this page.
 
-<p align="center">
-<img src="software-archi.png" alt="drawing" width="90%"/>
-</p>
+{{< img-center "images/advanced/software/software-archi.png" 750x "Reachy's software architecture" >}}
 

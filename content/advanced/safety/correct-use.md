@@ -20,7 +20,9 @@ Even though there is little chance that you get hurt using Reachy, you might get
 
 We recommend that you move both Reachy's arms with your hands before you start programming it. The goal is that you get a sense of Reachy's working space, the positions it can reach so that you won't get hit when you actually send it commands.
 
-{{< video "videos/advanced/safety/movement_compliant.mp4" "50%" >}}
+<p align="center">
+  {{< video "videos/advanced/safety/movement_compliant.mp4" "50%" >}}
+</p>
 
 ## and don't harm Reachy!
 
@@ -33,7 +35,9 @@ Each Reachy's motor can be in one of two compliance modes:
 It cannot be controlled with code, setting a new target position will have no effect. Yet you can still read the motor position.
 * **stiff**: the motor is hard and cannot be moved by hand. It can be controlled by setting new target position. In this mode, the motor use its maximum torque to maintain its present position until a target position is sent. You should hear a small noise coming from a motor in stiff mode, especially if you try to move it with your hands, it's totally normal.
 
-{{< video "videos/advanced/safety/stiff.mp4" "50%" >}}
+<p align="center">
+  {{< video "videos/advanced/safety/stiff.mp4" "50%" >}}
+</p>
 
 Check out the [Python SDK section]({{< ref "sdk/first-moves/arm#from-the-joints" >}}) on how to switch between the two modes.
 
