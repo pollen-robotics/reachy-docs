@@ -16,25 +16,18 @@ Each arm of Reachy is equipped with a load sensor to measure how much force is a
 
 The load sensor is in two part: the sensor itself and an electronic board reading its values and connected to Reachy's internal computer.
 
-<p align="center">
-  <img src="load_sensor_full.jpg" alt="drawing" width="60%"/>
-</p>
+
+{{< img-center "images/help/system/load_sensor_full.jpg" 400x "Load sensor full" >}}
 
 The sensor is placed between the two 3D printed pieces composing Reachy's gripper.
 
-<p align="center">
-  <img src="sensor_in_gripper.jpg" alt="drawing" width="60%"/>
-</p>
+{{< img-center "images/help/system/sensor_in_gripper.jpg" 400x "Load sensor in gripper" >}}
 
 The electronic board is placed between the gripper and wrist_roll motors of the arms.
 
-<p align="center">
-  <img src="load_sensor_schematic.png" alt="drawing" width="60%"/>
-</p>
+{{< img-center "images/help/system/load_sensor_schematic.png" 400x "Load sensor schematic" >}}
 
-<p align="center">
-  <img src="load_sensor_views.png" alt="drawing" width="70%"/>
-</p>
+{{< img-center "images/help/system/load_sensor_views.png" 400x "Load sensor views" >}}
 
 The board is connected to Reachy's computer by a long 8 black wires cable plugged by the back.
 
@@ -42,12 +35,9 @@ When we refer in the documentations as the load sensor being disconnected, we re
 
 You can check an example of the disconnected cable below.
 
-<p align="center">
-  <img src="load_sensor_disconnected.jpg" alt="drawing" width="50%"/>
-</p>
+{{< img-center "images/help/system/load_sensor_disconnected.jpg" 400x "Load sensor disconnected" >}}
 
 Be aware that there is a way for the connector. On the cable there is a short and a long side. 
 
-<p align="center">
-  <img src="module_views.png" alt="drawing" width="90%"/>
-</p>
+{{< img-center "images/help/system/module_views.png" 400x "Load sensor module view" >}}
+

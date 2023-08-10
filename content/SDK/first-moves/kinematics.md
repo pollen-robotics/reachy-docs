@@ -72,9 +72,7 @@ We have defined the whole kinematic model of the arm. This means the translation
 
 To use and understand the kinematic model, you need to know how Reachy coordinate system is defined (from Reachy's perspective), see below:
 
-<p align="center">
-  <img src="arm_axis.png" alt="drawing" width="50%"/>
-</p>
+{{< img-center "images/sdk/first-moves/arm_axis.png" 400x "" >}}
 
 * the X axis corresponds to the foward arrow,
 * the Y axis corresponds to the right to left arrow,
@@ -83,9 +81,7 @@ To use and understand the kinematic model, you need to know how Reachy coordinat
 The origin of this coordinate system is located in the upper part of the robot trunk, inside Reachy.
  Basically, if you imagine a segment going from the left shoulder to the right shoulder of the robot, the origin is the middle of this segment, which corresponds to behind the center of Pollen's logo on Reachy's torso.
 
-<p align="center">
-  <img src="reachy_frame.jpg" alt="drawing" width="75%"/>
-</p>
+{{< img-center "images/sdk/first-moves/reachy_frame.jpg" 400x "" >}}
 
 The units used for this coordinate system are the meter. So the point (0.3, -0.2, 0) is 30cm in front of the origin, 20cm to the right and at the same height.
 
@@ -102,19 +98,15 @@ Using the kinematic model defined above, we can compute the 3D position and orie
 
 We consider the end-effector to be in a virtual joint located in the gripper and referred as *'right_tip'* or *'left_tip'* in the [urdf file](https://github.com/pollen-robotics/reachy_kinematics/blob/master/reachy.URDF), as shown below.
 
-<p align="center">
-  <img src="eef.png" alt="drawing" width="25%"/>
-</p>
+{{< img-center "images/sdk/first-moves/eef.png" 400x "" >}}
 
 The red dot corresponds to the *'right_tip'*.
 
 You can see the right and left end-effectors animated below.
 
-<video controls="controls" width="50%" autoplay loop>
-  <source type="video/mp4" src="eef.mp4"></source>
-  <source type="video/webm" src="orbita.webm"></source>
-  <p>Your browser does not support the video element.</p>
-</video>
+<p align="center">
+    {{< video "videos/sdk/first-moves/eef.mp4" "80%" >}}
+</p>
 
 Each arm has a *forward_kinematics* method. To use it, you first need to connect to your Reachy.
 
@@ -200,10 +192,7 @@ To make this more concrete, let's first try with a simple example. We will make 
 
 The virtual corner is represented below.
 
-<p align="center">
-  <img src="square_setup.jpg" alt="drawing" width="75%"/>
-</p>
-
+{{< img-center "images/sdk/first-moves/square_setup.jpg" 400x "" >}}
 
 For our starting corner A, let's imagine a point in front of the robot, on its right and below its base. With Reachy coordinate system, we can define such a point with the following coordinates:
 
@@ -317,8 +306,6 @@ reachy.turn_off_smoothly('r_arm')
 
 The result should look like this:
 
-<video controls="controls" width="75%" autoplay loop>
-  <source type="video/mp4" src="goto_ik.mp4"></source>
-  <source type="video/webm" src="orbita.webm"></source>
-  <p>Your browser does not support the video element.</p>
-</video>
+<p align="center">
+    {{< video "videos/sdk/first-moves/goto_ik.mp4" "80%" >}}
+</p>

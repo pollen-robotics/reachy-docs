@@ -18,9 +18,7 @@ There are two ways to check this:
 
 - check Reachy's computer power button
 
-<p align="center">
-  <img src="button-a.png" alt="drawing" width="50%"/>
-</p>
+{{< img-center "images/help/system/button-a.png" 400x "Power button" >}}
 
 If the computer is turned on, there should be a round white led around the button brighting.
 
@@ -28,17 +26,13 @@ If the computer is turned on, there should be a round white led around the butto
 
 To do that, first lower Reachy's tee-shirt, on the front side you should see something like this:
 
-<p align="center">
-  <img src="torso.png" alt="drawing" width="60%"/>
-</p>
+{{< img-center "images/help/system/torso.png" 400x "Reachy torso" >}}
 
 The fan is the blue piece on the photo. If you can see the fan blades, it means that the computer is not running. If not, it probably means that the fan is running and it is just too fast for the blades to be seen.
 
 So if you checked that Reachy's computer is off, even after pressing the on button, this probably means that the cable powering it is disconnected.
 
-<p align="center">
-  <img src="plug_power_switch.png" alt="drawing" width="60%"/>
-</p>
+{{< img-center "images/help/system/plug_power_switch.png" 400x "Reachy power switch" >}}
 
 If it actually is, you should plug the cable back, according to the pin schematic shown in the photo above. This should solve the problem.
 

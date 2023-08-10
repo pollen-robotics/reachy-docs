@@ -21,9 +21,7 @@ In this page, one card will be created per Reachy's part. We consider that each 
 
 A debug page for a Full Kit Reachy will typically look like this:
 
-<p align="center">
-  <img src="/img/dashboard/content/debug.png" alt="Debug page" width="100%"/>
-</p>
+{{< img-center "images/dashboard/content/debug.png" 400x "Debug page" >}}
 
 The content of each card is what will change depending on what is going on with your robot.
 
@@ -32,9 +30,7 @@ For each part, the system will check at boot or when [*reachy_sdk_server.service
 
 For example, we disconnected on the right arm the cable between the elbow pitch and the forearm yaw joints, here is what the dashboard is indicating:
 
-<p align="center">
-  <img src="/img/dashboard/content/debug_missing_motor.png" alt="Debug page with missing motors" width="100%"/>
-</p>
+{{< img-center "images/dashboard/content/debug_missing_motor.png" 400x "Debug page with missing motors" >}}
 
 As you can see, each motor after the elbow pitch joint is missing whereas only one cable was disconnected, this is because the motors are connected in serial in Reachy's arms, so disconnecting one motor will unpower the next ones in the arm chain.
 
@@ -47,9 +43,7 @@ When multiple motors are indicated as missing, try to look first around the firs
 ## When each module is missing
 The page might tell you that each motor and force sensor in Reachy is missing, like the following:
 
-<p align="center">
-  <img src="/img/dashboard/content/debug_all_missing.png" alt="Debug all module missing" width="100%"/>
-</p>
+{{< img-center "images/dashboard/content/debug_all_missing.png" 400x "Debug all module missing" >}}
 
 If this happens, it is probably because you forgot to turn Reachy's motors on before booting its computer or because [*reachy_sdk_server.service*] is not started.
 
@@ -59,9 +53,7 @@ If it is because the motors were not turned on before Reachy's computer, just us
 
 If no module is missing, then a button "Connect to Reachy" should be available as below. 
 
-<p align="center">
-  <img src="/img/dashboard/content/debug_connect.png" alt="Debug connect button" width="30%"/>
-</p>
+{{< img-center "images/dashboard/content/debug_connect.png" 400x "Debug connect button" >}}
 
 Pressing this button will redirect you to the [dashboard page] where you will be able to monitor the motors temperatures and positions, control the fans or the joints compliance. More details on the [dashboard page].
 

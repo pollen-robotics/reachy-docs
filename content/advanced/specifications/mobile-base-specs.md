@@ -20,9 +20,13 @@ toc: true
 - Cylinder shape 
 - Aluminium, MJF 3D printed plastic parts, Steel  
 
+{{< img-center "images/advanced/specifications/mobile_base.png" 600x "" >}}
+
 **Dimension:** 50*25cm  
 **Weight:** 25kg  
 **Payload:** 80kg  
+
+{{< img-center "images/advanced/specifications/mobile_base_drawing.png" 600x "Mobile base schematic" >}}
 
 **Sensors:** 
 - Hall Sensors and IMU on each wheel

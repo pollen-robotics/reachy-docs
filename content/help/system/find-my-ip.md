@@ -19,9 +19,7 @@ There is a few option to find Reachy's IP. It depends on your setup and how you 
 
 A small LCD screen should be installed in Reachy’s back to display Reachy’s IP address. You will need to take down its tee-shirt to see the LCD screen.
 
-<p align="center">
-  <img src="ip_lcd_display_reachy.jpg" alt="Reachy's IP address display" width="40%"/>
-</p>
+{{< img-center "images/help/system/ip_lcd_display_reachy.jpg" 400x "Reachy's IP address LCD display" >}}
 
 ## Working directly on Reachy
 

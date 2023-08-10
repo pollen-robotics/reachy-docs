@@ -24,9 +24,7 @@ Reachy's arm offers 7 degrees of freedom + 1 provided by the gripper and is comp
 
 The arm's mechanical specifications are given [here] but as a reminder, the arm schematic is given below:
 
-<p align="center">
-  <img src="/img/sdk/first-moves/arm_schematic.png" alt="drawing" width="50%"/>
-</p>
+{{< img-center "images/sdk/first-moves/arm_schematic.png" 400x "" >}}
 
 ### The joints 
 
@@ -58,9 +56,7 @@ reachy.r_arm.r_shoulder_pitch.uid
 ### From the joints
 As explained, each joint composing an arm can be accessed using *reachy.r_arm* for the right arm and *reachy.l_arm* for the left arm.
 
-<p align="center">
-  <img src="/img/sdk/first-moves/arm_attributes.png" alt="drawing" width="75%"/>
-</p>
+{{< img-center "images/sdk/first-moves/arm_attributes.png" 400x "" >}}
 
 All the joints of a given arm can also be accessed simultaneously with the *.joints* attribute.
 
@@ -158,11 +154,9 @@ That is why we also implemented the **turn_off_smoothly** method. With this, we 
 
 See the difference below where both Reachy's arms are up and in stiff mode. To put them in compliant mode, we use *turn_off* on the left arm and *turn_off_smoothly* for the right arm.
 
-<video controls="controls" width="75%" autoplay loop>
-  <source type="video/mp4" src="/video/sdk/first-moves/compliant.mp4"></source>
-  <source type="video/webm" src="/video/sdk/first-moves/orbita.webm"></source>
-  <p>Your browser does not support the video element.</p>
-</video>
+<p align="center">
+    {{< video "videos/sdk/first-moves/compliant.mp4" "80%" >}}
+</p>
 
 ```python
 reachy.turn_on('reachy')
@@ -185,9 +179,7 @@ reachy.r_arm.r_shoulder_pitch.torque_limit
 
 According to the motors documentation, the speed is in rpm (raw per minute).
 
-<p align="center">
-  <img src="/img/sdk/first-moves/dynamixel_speed.png" alt="drawing" width="75%"/>
-</p>
+{{< img-center "images/sdk/first-moves/dynamixel_speed.png" 400x "" >}}
 
 source: [https://emanual.robotis.com/docs/en/dxl/ax/ax-18a/#ccw-angle-limit
 ](https://emanual.robotis.com/docs/en/dxl/ax/ax-18a/#ccw-angle-limit)
@@ -216,9 +208,7 @@ In the 2023 version of Reachy, only one force sensor is used per arm and it is p
 
 The force sensor is a 0.78kg micro load cell, it is placed in the arm's gripper as shown below
 
-<p align="center">
-  <img src="/img/sdk/first-moves/force_sensor.jpg" alt="drawing" width="50%"/>
-</p>
+{{< img-center "images/sdk/first-moves/force_sensor.jpg" 400x "" >}}
 
 The force sensor of each arm is accessible with *reachy.force_sensors*.
 
@@ -249,9 +239,7 @@ This function generates a trajectory between the present position and the goal p
 
 The two interpolation modes that we use consist in working either linearly or with the minjerk function.
 
-<p align="center">
-  <img src="/img/sdk/first-moves/interpolation.png" alt="drawing" width="75%"/>
-</p>
+{{< img-center "images/sdk/first-moves/interpolation.png" 400x "" >}}
 
 Both trajectories start and finish at the same point but don't follow the same intermediate positions. The minimum jerk will slowly accelerate at the begining and slowly decelerate at the end. This makes the movements more natural.
 
@@ -273,9 +261,7 @@ You will use the *goto()* to place the right arm at a right-angled position. Fir
 
 The setup should look like this: 
 
-<p align="center">
-  <img src="/img/sdk/first-moves/base_pos.jpg" alt="drawing" width="60%"/>
-</p>
+{{< img-center "images/sdk/first-moves/base_pos.jpg" 400x "" >}}
 
 Import everything needed to execute the *goto()*:
 
@@ -316,11 +302,9 @@ goto(
 
 The result should look like this:
 
-<video controls="controls" width="75%" autoplay loop>
-  <source type="video/mp4" src="/video/sdk/first-moves/goto.mp4"></source>
-  <source type="video/webm" src="/video/sdk/first-moves/orbita.webm"></source>
-  <p>Your browser does not support the video element.</p>
-</video>
+<p align="center">
+    {{< video "videos/sdk/first-moves/goto.mp4" "80%" >}}
+</p>
 
 Don't forget to put the right arm's joints back to the compliant mode. Place your hand below the right arm's gripper to prevent the arm from falling hard on the table.
 

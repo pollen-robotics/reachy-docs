@@ -33,9 +33,7 @@ reachy.left_camera
 
 The left and right sides are considered from Reachy point of view.
 
-<p align="center">
-  <img src="/img/sdk/first-moves/head.jpg" alt="drawing" width="60%"/>
-</p>
+{{< img-center "images/sdk/first-moves/head.jpg" 400x "" >}}
 
 ## Get the images
 

@@ -17,9 +17,7 @@ The last required step before actually programing your Reachy is to find its IP 
 
 A small LCD screen should be installed in Reachy's back to display Reachy's IP address. You will need to take down its tee-shirt to see the LCD screen.
 
-<p align="center">
-  <img src="ip_lcd_display_reachy.jpg" alt="drawing" width="40%"/>
-</p>
+{{< img-center "images/sdk/getting-started/ip_lcd_display_reachy.jpg" 400x "" >}}
 
 The instructions to display the IP address to the LCD screen is provided by the [dashboard] which is started at boot with the service [reachy_dashboard.service].
 

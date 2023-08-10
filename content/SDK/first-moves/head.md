@@ -25,11 +25,9 @@ Reachy's head is composed of three parts:
 * a back side equiped with two antennas to convey emotions along with two fans in the inner part to cool down the components inside the head,
 * a neck ball joint, thanks to our Orbita actuator.  
 
-<video controls="controls" width="75%" autoplay loop>
-  <source type="video/mp4" src="orbita.mp4"></source>
-  <source type="video/webm" src="orbita.webm"></source>
-  <p>Your browser does not support the video element.</p>
-</video>
+<p align="center">
+    {{< video "videos/sdk/first-moves/orbita.mp4" "80%" >}}
+</p>
 
 The complete head's specifications are given [here]({{< ref "advanced/specifications/head-specs" >}}).
 
@@ -37,9 +35,7 @@ The complete head's specifications are given [here]({{< ref "advanced/specificat
 
 Below you can see Reachy's head front and back supported by the Orbita actuator.
 
-<p align="center">
-  <img src="head_front_back.png" alt="drawing" width="75%"/>
-</p>
+{{< img-center "images/sdk/first-moves/head_front_back.png" 400x "" >}}
 
 ### Reachy's neck: Orbita actuator
 
@@ -47,9 +43,7 @@ The Orbita actuator is a unique technology developed by Pollen Robotics’ R&D t
 
 Orbita can be controlled as a 3D rotation.
 
-<p align="center">
-  <img src="orbita_rpy.png" alt="drawing" width="60%"/>
-</p>
+{{< img-center "images/sdk/first-moves/orbita_rpy.png" 400x "" >}}
 
 We wrote a [Medium article on Orbita](https://medium.com/pollen-robotics/orbita-is-turning-heads-literally-d10d378550e2) to explain how it works and what inspired us to create it. If you have 10 minutes, go check it out!
 
@@ -106,11 +100,9 @@ reachy.head.look_at(x=0.5, y=0, z=0, duration=1.0)
 
 You can use multiple *look_at* to chain head movements.
 
-<video controls="controls" width="75%" autoplay loop>
-  <source type="video/mp4" src="look.mp4"></source>
-  <source type="video/webm" src="look.webm"></source>
-  <p>Your browser does not support the video element.</p>
-</video>
+<p align="center">
+    {{< video "videos/sdk/first-moves/look.mp4" "80%" >}}
+</p>
 
 Here is the code to reproduce this.
 
@@ -136,11 +128,9 @@ reachy.turn_off('head')
 
 Another cool thing is that we can combine Reachy's kinematics with the *look_at* so that Reachy's head follows its hand!
 
-<video controls="controls" width="75%" autoplay loop>
-  <source type="video/mp4" src="look_at_hand.mp4"></source>
-  <source type="video/webm" src="look_at_hand.webm"></source>
-  <p>Your browser does not support the video element.</p>
-</video>
+<p align="center">
+    {{< video "videos/sdk/first-moves/look_at_hand.mp4" "80%" >}}
+</p>
 
 ```python
 reachy.turn_on('head')
@@ -205,11 +195,9 @@ sad_antennas()
 
 The result should look like the following.
 
-<video controls="controls" width="75%" autoplay loop>
-  <source type="video/mp4" src="antennas.mp4"></source>
-  <source type="video/webm" src="antennas.webm"></source>
-  <p>Your browser does not support the video element.</p>
-</video>
+<p align="center">
+    {{< video "videos/sdk/first-moves/antennas.mp4" "80%" >}}
+</p>
 
 Combining this with head movements amplifies the emotions transmitted. Having Reachy lowering its head makes it even sadder...
 
@@ -219,11 +207,9 @@ sad_antennas()
 reachy.head.look_at(0.5, 0, -0.0, 1.0)
 ```
 
-<video controls="controls" width="75%" autoplay loop>
-  <source type="video/mp4" src="sad.mp4"></source>
-  <source type="video/webm" src="sad.webm"></source>
-  <p>Your browser does not support the video element.</p>
-</video>
+<p align="center">
+    {{< video "videos/sdk/first-moves/sad.mp4" "80%" >}}
+</p>
 
 Use your imagination to combine antennas and head movements and create new emotions for Reachy!
 

@@ -15,9 +15,7 @@ toc: true
 ---
 The wifi page of the dashboard lets you handle the network connection of the robot and typically looks like the following:
 
-<p align="center">
-  <img src="/img/dashboard/content/wifi.png" alt="Wifi page" width="100%"/>
-</p>
+{{< img-center "images/dashboard/content/wifi.png" 400x "Wifi page" >}}
 
 There are four main elements on this page:
 1. **Connection card**: this card will display whether Reachy is connected to the Internet with an ethernet cable or a wifi network (in which case it will tell you which wifi network) or if it is using its hotspot,
@@ -40,9 +38,7 @@ You can connect Reachy to a wifi network using the Wifi adder card.
 
 When you change the wifi network, the following message will appear:
 
-<p align="center">
-  <img src="/img/dashboard/content/wifi_update.png" alt="Wifi page" width="50%"/>
-</p>
+{{< img-center "images/dashboard/content/wifi_update.png" 400x "Wifi page" >}}
 
 If you try to change the wifi network and fail to enter the correct password, Reachy will switch to hotspot mode and you will have to try again to update the wifi network by connecting to *Reachy-AP*.
 

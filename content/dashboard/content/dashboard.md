@@ -18,9 +18,7 @@ The dashboard page is only accessible if the tools in the [debug page] found no 
 
 The page typically looks like the following:
 
-<p align="center">
-  <img src="/img/dashboard/content/dashboard.png" alt="Dashboard page" width="100%"/>
-</p>
+{{< img-center "images/dashboard/content/dashboard.png" 400x "Dashboard page" >}}
 
 It is composed of three parts:
 1. Temperatures and positions displayer

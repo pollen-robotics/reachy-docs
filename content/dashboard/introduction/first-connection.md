@@ -36,9 +36,7 @@ Once connected to the hotspot, you can easily access Reachy's dashboard and conn
 
 The page should look like this:
 
-<p align="center">
-  <img src="img/dashboard/introduction/wifi_first_connection.png" alt="Wifi page at first connection" width="100%"/>
-</p>
+{{< img-center "images/dashboard/introduction/wifi_first_connection.png" 400x "Wifi page at first connection" >}}
 
 Then
 * Select the wifi network you want Reachy to connect to. The wifi networks available should be in the dropdown under SSID.

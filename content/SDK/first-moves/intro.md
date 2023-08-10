@@ -30,7 +30,7 @@ The *reachy* object instanciated above is the main tool to access the informatio
 
 The reachy object has 8 attributes and 2 methods that we will quickly present here, more detailed information are given in the dedicated pages after this one. 
 
-<img src="reachy_attributes.png" alt="drawing" width="75%"/>
+{{< img-center "images/sdk/first-moves/reachy_attributes.png" 400x "" >}}
 
 ### reachy.fans
 

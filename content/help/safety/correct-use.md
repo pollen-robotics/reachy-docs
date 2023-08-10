@@ -20,14 +20,8 @@ Even though there is little chance that you get hurt using Reachy, you might get
 We recommend that you move both Reachy's arms with your hands before you start programming it. The goal is that you get a sense of Reachy's working space, the positions it can reach so that you won't get hit when you actually send it commands.
 
 <p align="center">
-    <video controls="controls" width="30%" autoplay loop>
-    <source type="video/mp4" src="movement_compliant.mp4"></source>
-    <source type="video/webm" src="movement_compliant.webm"></source>
-    </video>
-    <br>
-    Try it yourself!
+    {{< video "videos/help/movement_compliant.mp4" "80%" >}}
 </p>
-
 
 ## and don't harm Reachy!
 
@@ -41,12 +35,7 @@ It cannot be controlled with code, setting a new target position will have no ef
 * **stiff**: the motor is hard and cannot be moved by hand. It can be controlled by setting new target position. In this mode, the motor use its maximum torque to maintain its present position until a target position is sent. You should hear a small noise coming from a motor in stiff mode, especially if you try to move it with your hands, it's totally normal.
 
 <p align="center">
-    <video controls="controls" width="30%" autoplay loop>
-    <source type="video/mp4" src="stiff.mp4"></source>
-    <source type="video/webm" src="stiff.webm"></source>
-    </video>
-    <br>
-    Reachy's right arm motors resisting in stiff mode
+    {{< video "videos/help/stiff.mp4" "80%" >}}
 </p>
 
 Check out the [Python SDK section](https://docs.pollen-robotics.com/sdk/first-moves/arm/#from-the-joints) on how to switch between the two modes.

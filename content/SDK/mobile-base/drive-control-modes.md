@@ -67,8 +67,7 @@ Two control modes are possible:
 Regardless of how the mobile base is piloted (goto, set_speed, controller), the HAL always ends up calculating a goal rotational speed for each wheel.
 The control mode only changes the used strategy to reach that rotational speed.
 * In the open_loop mode, a simple affine model was identified to match a PWM to a goal rotational speed. The VESC controllers then apply the PWM directly to the motors of the wheels, without any other low level control. The measures can be found [here](https://github.com/pollen-robotics/zuuu_hal/tree/main/measures). While the model is simple, it does account for the static friction and the experimental data shows a good fit when the mobile base is on a flat surface.
-<p align="center">
-  <img src="affine_pwm_model.png" alt="drawing" width="75%"/>
-</p>
+
+{{< img-center "images/sdk/mobile-base/affine_pwm_model.png" 400x "" >}}
 
 * In the pid mode, the HAL gives the goal rotational speeds directly to the VESC controllers of each wheel. The VESC will use a PID controller to control the speeds. 

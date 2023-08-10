@@ -1,6 +1,6 @@
 ---
-title : "ROS2 Humble Packages"
-description: "ROS2 Humble Packages for Reachy."
+title : "Reachy's software"
+description: "Description of Reachy's software architecture."
 lead: ""
 date: 2023-07-26T08:03:42+02:00
 lastmod: 2023-07-26T08:03:42+02:00

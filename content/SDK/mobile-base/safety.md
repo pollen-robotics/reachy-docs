@@ -16,10 +16,7 @@ toc: true
 The basic idea is that the LIDAR is used to detect surrounding obstacles and reduce or nullify speed commands that would create a collision with the mobile base.
 
 <p align="center">
-    <video controls="controls" width="100%" autoplay once>
-    <source type="video/mp4" src="lidar_safety_human.mp4"></source>
-    </video>
-    <br>
+    {{< video "videos/sdk/mobile-base/lidar_safety_human.mp4" "80%" >}}
 </p>
 
 The safety is active regardless of how you command the mobile base (teleop, controller, goto and set_speed).
@@ -30,10 +27,7 @@ The safety is active regardless of how you command the mobile base (teleop, cont
 
 ## Detailed behaviour
 <p align="center">
-    <video controls="controls" width="100%" >
-    <source type="video/mp4" src="lidar_safety_360.mp4"></source>
-    </video>
-    <br>
+    {{< video "videos/sdk/mobile-base/lidar_safety_360.mp4" "80%" >}}
 </p>
 
 - If an obstacle is present inside of the critical distance boundary, then the speed of the mobile base is reduced in all directions, and nullified in the direction that would cause a collision. Rotations are slowed down but are still allowed. 

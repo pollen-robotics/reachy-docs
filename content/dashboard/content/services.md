@@ -21,9 +21,7 @@ Having this page is useful when something is going wrong with Reachy. For exampl
 
 In this page, one card will be created per Reachy's service. Typically the page will looks like the following:
 
-<p align="center">
-  <img src="/img/dashboard/content/services.png" alt="Services page" width="100%"/>
-</p>
+{{< img-center "images/dashboard/content/services.png" 400x "Services page" >}}
 
 For each service, it will be indicated whether the service is currently running or not and three buttons will be available:
 * **Restart**: restarts the service,

@@ -43,9 +43,7 @@ However, you might want to turn them on sooner so that the joints work longer on
 
 The *reachy.fans* object contains each fan. You can have access to each fan individually or to all at once.
 
-<p align="center">
-  <img src="/img/sdk/first-moves/fans_attributes.png" alt="drawing" width="75%"/>
-</p>
+{{< img-center "images/sdk/first-moves/fans_attributes.png" 400x "" >}}
 
 ```python
 for fan in reachy.fans.values():
@@ -66,9 +64,7 @@ and two methods:
 * *on()* which turns the fan on,
 * *off()* which turns the fan off.
 
-<p align="center">
-  <img src="/img/sdk/first-moves/single_fan_attribute.png" alt="drawing" width="50%"/>
-</p>
+{{< img-center "images/sdk/first-moves/single_fan_attribute.png" 400x "" >}}
 
 Thus you can easily turn on a fan.
 

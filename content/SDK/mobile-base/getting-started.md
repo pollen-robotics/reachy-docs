@@ -80,10 +80,7 @@ python3 joy_controller.py
 The left joystick will be used for translation and the right one for rotation.
 
 <p align="center">
-    <video controls="controls" width="100%" >
-    <source type="video/mp4" src="../safety/lidar_safety_360.mp4"></source>
-    </video>
-    <br>
+    {{< video "videos/sdk/mobile-base/lidar_safety_360.mp4" "80%" >}}
 </p>
 
 The script reads the controller and uses the *mobile-base-sdk* to send speed commands to the mobile base. Don't hesitate to take a look at the [code](https://github.com/pollen-robotics/mobile-base-sdk/blob/main/mobile_base_sdk/examples/scripts/joy_controller.py) to have an example of good practices for an app involving the base.

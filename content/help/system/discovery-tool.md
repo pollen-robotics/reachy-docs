@@ -38,9 +38,7 @@ This python script will look at each robot's part (e.g head / left arm / right a
 
 You might be told that one or multiple motors seem to be missing. Usually it is due to a disconnected cable (it might happen during transportation or manipulation). You can refer to the schematic below to identify where are located the missing motors.
 
-<p align="center">
-  <img src="reachy_full_annoted.png" alt="drawing" width="80%"/>
-</p>
+{{< img-center "images/help/system/reachy_full_annoted.png" 400x "Reachy annoted" >}}
 
 Check the page on [How to reconnect a motor]({{< ref "help/system/reconnect-motor" >}}) if you have any missing motors. For an arm, you should focus on the first motor in the chain missing (the one with the lowest id). Because each motor is connected to the next one sequentially, if one motor is missing, the following in the chain will be as well.
 For example, if you're being told that the motors *l_wrist_pitch* (id 25), *l_wrist_roll* (id 26) and *l_gripper* (id 27) are missing, it is probably there is a disconnected cable between *l_wrist_pitch* and the motor before it in the arm's chain i.e. *l_forearm_yaw*.
@@ -53,26 +51,19 @@ If you don't see in the discovery a load sensor for an arm, it means that the el
 
 The location of this board is shown below.
 
-<p align="center">
-  <img src="load-sensor-gripper.jpg" alt="drawing" width="50%"/>
-</p>
+{{< img-center "images/help/system/load-sensor-gripper.jpg" 400x "Load sensor in Reachy gripper" >}}
 
 ### Fans board
 
 For each arm, there is a board used to control Reachy's fans called *r_fan* for the right arm and *l_fan* for the left arm. If either of them is missing, it means that there might be a connection issue with the card.
 
-<p align="center">
-  <img src="fan-board.jpg" alt="drawing" width="50%"/>
-</p>
-
+{{< img-center "images/help/system/fan-board.jpg" 400x "Fan board" >}}
 
 ### Orbita
 
 The last element that you should see if you have a Reachy with an head is the Orbita joint of the neck. If you don't see it, check that the actuator is actually powered, there should be a red led on as shown below.
 
-<p align="center">
-  <img src="orbita-led.jpg" alt="drawing" width="50%"/>
-</p>
+{{< img-center "images/help/system/orbita-led.jpg" 400x "Orbita led" >}}
 
 ## Redoing a discovery
 

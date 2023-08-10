@@ -20,16 +20,13 @@ Our design is coherent with ROS' conventions described in [REP 105 “Coordinate
 ### Robot frame
 The robot frame or egocentric frame or base_link frame is **rigidly attached to the robot**. Its (0, 0) point is the projection on the floor of the center of the mobile base.
 **X in front, Y to the left, Theta positive counterclockwise.**
-<p align="center">
-  <img src="robot_frame.png" alt="robot_frame" width="60%"/>
-</p>
+
+{{< img-center "images/sdk/mobile-base/robot_frame.png" 400x "" >}}
 
 ### Odom frame
 The odom frame is a **world-fixed frame**. The position (x, y, theta) of the robot in the odom frame is continuously updated by the HAL through odometry calculations. These calculations currently only use the measurements from the wheels to estimate the movement of the robot. While the position of the robot is continuous, **it should never be relied upon for long-term reference as it will always drift.**
 
-<p align="center">
-  <img src="odom_frame.png" alt="odom_frame" width="60%"/>
-</p>
+{{< img-center "images/sdk/mobile-base/odom_frame.png" 400x "" >}}
 
 The initial position of the odom frame matches the position of the robot when the HAL was started. The odom frame can also be reset to the current position of the robot using:
   ```python

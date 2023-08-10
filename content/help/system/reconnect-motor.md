@@ -16,16 +16,11 @@ An unplugged cable can be spotted more or less easily in each part of an arm, ex
 
 A typical arm of Reachy is composed of eight motors. The motors are connected as a chain starting with the shoulder pitch. Each motor is connected to the motors located before and after it in the chain.
 
-<p align="center">
-  <img src="right-arm-scheme.png" alt="drawing" width="60%"/>
-</p>
+{{< img-center "images/help/system/right-arm-scheme.png" 400x "Right arm schematic" >}}
 
 For example in the photo below showing the back of Reachy's wrist, we can see that the wrist roll motor is connected to the wrist pitch motor and to the gripper.
 
-<p align="center">
-  <img src="cable_wrist.jpeg" alt="drawing" width="40%"/>
-</p>
-
+{{< img-center "images/help/system/cable_wrist.jpeg" 400x "Arm wrist cable" >}}
 
 ## How can I know if a cable is disconnected?
 
@@ -51,14 +46,10 @@ The most frequent cable, which is also a hard one to reconnect unfortunately, be
 
 You can see the cable on this photo of an arm out of its torso.
 
-<p align="center">
-  <img src="shoulder_cable.jpeg" alt="drawing" width="50%"/>
-</p>
+{{< img-center "images/help/system/shoulder_cable.jpeg" 400x "" >}}
 
 Below is a view of the cable from a complete Reachy whose tee shirt has been put down.
 
-<p align="center">
-  <img src="shoulder_cable_full_kit.jpeg" alt="drawing" width="50%"/>
-</p>
+{{< img-center "images/help/system/shoulder_cable_full_kit.jpeg" 400x "" >}}
 
 We believe that having the images of where this cable is located exactly will help in case you would have to reconnect it.

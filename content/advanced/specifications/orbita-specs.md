@@ -46,6 +46,8 @@ toc: true
 Orbita has 3 degrees of freedom actuated by three motors described above.   
 They correspond to three rotation at the same point like Roll Pitch Yaw rotations.
 
+{{< img-center "images/advanced/specifications/rpy-orbita.jpg" 300x "" >}}
+
 **Angle limits**  
 Roll: -46° to 46°  
 Pitch: -46° to 46°  

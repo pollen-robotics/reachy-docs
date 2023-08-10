@@ -18,9 +18,7 @@ toc: true
 
 If you're using the [Python SDK]({{< ref "sdk/getting-started/introduction" >}}) you may encounter the following error when trying to connect to Reachy.
 
-<p align="center">
-  <img src="python_sdk_error.png" alt="drawing" width="90%"/>
-</p>
+{{< img-center "images/help/python_sdk_error.png" 400x "Main sdk error" >}}
 
 ## Debugging the SDK server
 
@@ -36,9 +34,7 @@ systemctl --user status <name_of_the_service>.service
 
 The service should indicate ⬤ active (running) as shown below.
 
-<p align="center">
-  <img src="service_status.png" alt="drawing" width="90%"/>
-</p>
+{{< img-center "images/help/service_status.png" 400x "Service status" >}}
 
 If the service is not active, enable it and start it.
 ```bash
@@ -96,9 +92,7 @@ $ python3 ~/reachy_ws/src/reachy_2023/camera_controllers/examples/view_cam.py ri
 
 If one (or both) of them is not working, you can check if the USB cable coming from Reachy's neck is correctly connected.
 
-<p align="center">
-  <img src="camera_cable.jpg" alt="drawing" width="50%"/>
-</p>
+{{< img-center "images/help/camera_cable.jpg" 400x "Usb cable for the cameras" >}}
 
 If it was actually connected, usually restarting Reachy's computer does the trick.
 
