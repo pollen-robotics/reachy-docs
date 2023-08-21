@@ -10,7 +10,7 @@ type: docs
 menu:
   help:
     parent: help
-weight: 50
+weight: 100
 toc: true
 ---
 

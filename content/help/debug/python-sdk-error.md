@@ -1,5 +1,5 @@
 ---
-title : "Quick Debug"
+title : "Quick Debug with the Python SDK"
 description: "Quick Debug for Reachy's Python SDK."
 lead: ""
 date: 2023-07-26T08:45:02+02:00
@@ -10,7 +10,7 @@ type: docs
 menu:
   help:
     parent: help
-weight: 100
+weight: 110
 toc: true
 ---
 

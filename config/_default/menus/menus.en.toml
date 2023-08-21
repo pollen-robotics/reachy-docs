@@ -132,7 +132,7 @@
 [[main]]
   name = "Help"
   weight = 60
-  url = "/help/check-dashboard/"
+  url = "/help/debug/check-dashboard/"
 
 #############################################
 # Menu VR
@@ -162,7 +162,7 @@
   name = "Help"
   weight = 10
   identifier = "help"
-  url = "/help/check-dashboard/"
+  url = "/help/debug/check-dashboard/"
 
 [[help]]
   name = "System"

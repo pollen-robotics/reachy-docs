@@ -1,5 +1,5 @@
 ---
-title: "Debug"
+title: "I have a problem!"
 description: "Learn how to debug your problems with Reachy."
 lead: ""
 date: 2023-07-25T14:29:14+02:00

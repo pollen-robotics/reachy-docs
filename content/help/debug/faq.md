@@ -10,7 +10,7 @@ type: docs
 menu:
   help:
     parent: help
-weight: 110
+weight: 120
 toc: true
 ---
 Non exhaustive list of common questions from Reachy's users. 
@@ -23,11 +23,11 @@ Check the [Find my IP section]({{< ref "help/system/find-my-ip" >}}).
 {{% /expand %}}
 
 {{% expand "> Got '_InactiveRpcError' when I try to use ReachySDK from Python SDK. "%}}
-It's very likely that you have a problem with reachy_sdk_server, the server running Reachy's software. Check the [Quick debug]({{< ref "help/debug" >}}) section.
+It's very likely that you have a problem with reachy_sdk_server, the server running Reachy's software. Check the [Quick debug]({{< ref "help/debug/python-sdk-error" >}}) section.
 {{% /expand %}}
 
 {{% expand "> Reachy SDK Server is not running." %}}
-Check the [Quick debug]({{< ref "help/debug" >}}) section.
+Check the [Quick debug]({{< ref "help/debug/python-sdk-error" >}}) section.
 {{% /expand %}}
 
 {{% expand "> One of Reachy's motor red led is blinking" %}}

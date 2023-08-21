@@ -15,7 +15,7 @@ toc: true
 
 ## FAQ
 
-Check if your question is part of our [FAQ]({{< ref "help/faq" >}}).
+Check if your question is part of our [FAQ]({{< ref "help/debug/faq" >}}).
 
 ## Discord
 

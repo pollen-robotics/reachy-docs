@@ -4,14 +4,10 @@ description: ""
 lead: ""
 date: 2023-08-09T14:45:14+02:00
 lastmod: 2023-08-09T14:45:14+02:00
-draft: true
+draft: false
 images: []
-menu:
-  docs:
-    parent: ""
-    identifier: "arm-installation-process-54c7c52fe19d57bdd6544795e346b564"
-weight: 999
 toc: true
+hide_from_sidebar: true
 ---
 You decided to buy an **Arm kit**, you have a few things to install on your computer.
 Don’t worry, we will go step by step to guide you through the installation process!
