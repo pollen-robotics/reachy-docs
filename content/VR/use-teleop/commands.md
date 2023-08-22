@@ -14,6 +14,8 @@ toc: true
 hidden: true
 ---
 
+*This documentation is made for the teleoperation app version 1.0. This application is compatible with up-to-date Reachy 2021 and 2023.*  
+
 ## Oculus Quest
 
 {{< img "images/vr/use-teleop/oculus-quest-mapping.png" 600x "Oculus Quest controller mapping">}}

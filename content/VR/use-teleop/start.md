@@ -14,6 +14,12 @@ weight: 642
 toc: true
 ---
 
+*This documentation is made for the teleoperation app version 1.0. This application is compatible with up-to-date Reachy 2021 and 2023.*  
+
+{{< alert icon="⬇️" text="<a href=\"https://github.com/pollen-robotics/ReachyTeleoperation/releases\"> Download the latest version of the app</a> or go to <a href=\"https://docs.pollen-robotics.com/vr/installation/installation/\"> What needs to be installed</a> page for more information.">}}
+
+
+
 {{< warning icon="👉🏾" text="Before starting teleoperating Reachy, please make sure you read the  <b><a href=\"https://docs.pollen-robotics.com/vr/use-teleop/best-practice/\">Best Practice</a></b>" >}}
 
 ## In brief
