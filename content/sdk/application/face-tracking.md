@@ -13,7 +13,7 @@ toc: true
 
 The face tracking project is an autonomous application in which Reachy will detect faces in its field of view and track the detected face that is closet to it.
 
-This can be used as is to make demo with the robot, show the capabilities of the [Orbita actuator] or serve as a brick to build more complex and interactive applications.
+This can be used as is to make demo with the robot, show the capabilities of the [Orbita actuator]({{< ref "advanced/specifications/orbita-specs" >}}) or serve as a brick to build more complex and interactive applications.
 
 The source code can be found in the <a href="https://github.com/pollen-robotics/reachy-face-tracking" target="_blank">reachy-face-tracking</a> GitHub repository.
 
@@ -44,10 +44,10 @@ cd ~/dev/reachy-face-tracking
 bash launch.bash
 ```
 
-What this bash file does is just making sure that [reachy_sdk_server.service]  (Reachy’s core code) is started and calling the application with the Python command given above.
+What this bash file does is just making sure that [reachy_sdk_server.service]({{< ref "advanced/services/available#reachy_sdk_serverservice" >}}) (Reachy’s core code) is started and calling the application with the Python command given above.
 
 ### Define service
-You can also setup a service to start the application automatically at boot or to control the application directly with the [dashboard] .
+You can also setup a service to start the application automatically at boot or to control the application directly with the [dashboard]({{< ref "dashboard/introduction/introduction" >}}).
 
 To do that, just use the provided bash file.
 ```bash

@@ -15,7 +15,7 @@ The dashboard will allow you to setup your robot easily, without needing to plug
 
 ## Reachy's hotspot
 
-When Reachy does not know any wifi network at boot, [its hotspot] is activated by default, meaning Reachy emits its own wifi. By default, the name of Reachy's hotspot is *Reachy-AP*. You can connect to the hotspot with your laptop or computer just like with any wireless network.
+When Reachy does not know any wifi network at boot, [its hotspot]({{< ref "dashboard/content/wifi#reachys-hotspot" >}}) is activated by default, meaning Reachy emits its own wifi. By default, the name of Reachy's hotspot is *Reachy-AP*. You can connect to the hotspot with your laptop or computer just like with any wireless network.
 
 > Default password to connect to *Reachy-AP*: **Reachy-AP** </br>
 

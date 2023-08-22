@@ -45,7 +45,7 @@ The dashboard is composed of five pages:
 * [**Dashboard**]: displays the present position and temperature of each joint, allows you to control Reachy's fans and the joints compliance,
 * [**Services**]: lets you check which services are running in your robot. You can restart, stop each service and access their logs easily,
 * [**Wifi**]: lets you manage Reachy's wireless connection. You can connect your robot to a new wifi network or control its hotspot.
-* [**Applications**]: lets you manage Reachy's autonomous applications. Just with Reachy's services, you start, stop and access the logs for each application that you installed. For now, only the [Hello world] and [Face tracking] applications are available.
+* [**Applications**]: lets you manage Reachy's autonomous applications. Just with Reachy's services, you start, stop and access the logs for each application that you installed. For now, only the [Idle]({{< ref "sdk/application/idle" >}}) and [Face tracking]({{< ref "sdk/application/face-tracking" >}}) applications are available.
 
 On each page, the configuration of the robot will also be displayed (e.g. whether your robot is a full kit, starter kit, ...)
 

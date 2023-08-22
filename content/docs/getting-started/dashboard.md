@@ -12,4 +12,4 @@ We developed a dashboard to give you an overview of the state of your Reachy (wh
 
 This tool has been thought to help you **start easier with the robot** and **facilitate quick debugging**.
 
-Follow the instructions on the dashboard [first connection page] to learn how to connect your Reachy to your wireless network without needing to plug a computer screen, keyboard or mouse.
+Follow the instructions on the dashboard [first connection page]({{< ref "dashboard/introduction/first-connection" >}}) to learn how to connect your Reachy to your wireless network without needing to plug a computer screen, keyboard or mouse.

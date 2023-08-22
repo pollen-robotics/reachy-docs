@@ -49,10 +49,10 @@ cd ~/dev/hello-world
 bash launch.bash
 ```
 
-What this bash file does is just making sure that [reachy_sdk_server.service] (Reachy’s core code) is started and calling the application with the Python command given above.
+What this bash file does is just making sure that [reachy_sdk_server.service]({{< ref "advanced/services/available#reachy_sdk_serverservice" >}}) (Reachy’s core code) is started and calling the application with the Python command given above.
 
 ### Define service
-You can also setup a service to start the application automatically at boot or to control the application directly with the [dashboard] .
+You can also setup a service to start the application automatically at boot or to control the application directly with the [dashboard]({{< ref "dashboard/introduction/introduction" >}}).
 
 To do that, just use the provided bash file.
 ```bash
@@ -155,7 +155,7 @@ It is also possible for you to implement your own behavior and to add it to the 
 
 What you need to know is that your class defining your new behavior should inherit from the <a href="https://github.com/pollen-robotics/hello-world/tree/main/hello_world/behaviors/__init__.py" target="_blank">Behavior class</a>, define an \_\_init\_\_, a run and a terdown method. More info on the README of the <a href="https://github.com/pollen-robotics/hello-world#add-new-behaviors" target="_blank">hello-world repository</a>.
 
-Each existing behavior have been implemented only using [Reachy’s Python SDK], whether it was by using [goto] or [look_at], or by [recording and replaying movements]. Take a look at how the behaviors have been implemented to get some inspiration.
+Each existing behavior have been implemented only using [Reachy’s Python SDK], whether it was by using [goto]({{< ref "sdk/first-moves/arm#goto-function" >}}) or [look_at], or by [recording and replaying movements]. Take a look at how the behaviors have been implemented to get some inspiration.
 
 ## Other
 ### Run the application on any computer

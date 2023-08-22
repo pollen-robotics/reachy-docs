@@ -45,7 +45,7 @@ reachy.r_arm.r_shoulder_pitch.uid
 >>> 8
 ```
 
-> The uid returned by the sdk is different from the id you may have seen in the mechanical specifications. The motor's id in the [mechanical specification] is the one used at lower level by the dxl bus to communicate with the motors whereas the uid that you see in the sdk is the one used by the different grpc services.
+> The uid returned by the sdk is different from the id you may have seen in the mechanical specifications. The motor's id in the [mechanical specification]({{< ref "advanced/specifications/arm-specs" >}}) is the one used at lower level by the dxl bus to communicate with the motors whereas the uid that you see in the sdk is the one used by the different grpc services.
 
 ## What information do you have access to?
 
@@ -102,7 +102,7 @@ Also if you want to teach movements to the robot with learning technics, storing
 
 You also have access to each motor temperature with the temperature attribute of each joint. This temperature should be checked to make sure that the robot can operate correctly. The temperature is also monitored internally in Reachy and fans are turned on when the joints are heating.
 
-Check the [safety page] before controlling the arm for more information.
+Check the [safety page]({{< ref "sdk/first-moves/safety" >}}) before controlling the arm for more information.
 
 ```python
 reachy.r_arm.r_shoulder_pitch.temperature
@@ -162,7 +162,7 @@ reachy.turn_off_smoothly('r_arm')
 
 #### goal_position
 
-The *goal_position* attribute of a joint is what is used to set a new joint's target position to make it move. However, we recommend using the [**goto() function**] to move the motors which provides better control on the joint's trajectories.
+The *goal_position* attribute of a joint is what is used to set a new joint's target position to make it move. However, we recommend using the [**goto() function**]({{< ref "sdk/first-moves/arm#goto-function" >}}) to move the motors which provides better control on the joint's trajectories.
 
 #### torque/speed_limit
 

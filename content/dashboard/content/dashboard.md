@@ -10,7 +10,7 @@ type: docs
 toc: true
 ---
 
-The dashboard page is only accessible if the tools in the [debug page] found no missing motors or force sensors. It will allow you to get basic information from Reachy's motors, change their compliance and control Reachy's fans.
+The dashboard page is only accessible if the tools in the [debug page]({{< ref "dashboard/content/debug" >}}) found no missing motors or force sensors. It will allow you to get basic information from Reachy's motors, change their compliance and control Reachy's fans.
 
 The page typically looks like the following:
 
