@@ -28,6 +28,8 @@ Gripper: 230g
 **Maximum payload: 500g**   
 *(this may vary depending on the holding and duration configuration)*
 
+{{< img-center "images/advanced/specifications/right-arm-scheme.png" 600x "Reachy's right arm schematic" >}}
+
 ## Degrees of freedom
 Reachy's arm offers 7 degrees of movement + 1 for the gripper
 

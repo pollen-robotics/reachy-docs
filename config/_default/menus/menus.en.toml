@@ -226,29 +226,182 @@
 
 #############################################
 # Menu SDK
+#############################################
+
+##################
+## Getting started section
+##################
 
 [[sdk]]
   name = "Getting Started"
   weight = 10
-  url = "/sdk/getting-started/"
+  identifier = "sdk-getting-started"
+
+[[sdk]]
+  name = "Introduction"
+  weight = 100
+  parent = "sdk-getting-started"
+  url = "/sdk/getting-started/introduction"
+
+[[sdk]]
+  name = "Installation"
+  weight = 110
+  parent = "sdk-getting-started"
+  url = "/sdk/getting-started/install"
+
+[[sdk]]
+  name = "Finding Reachy's IP"
+  weight = 120
+  parent = "sdk-getting-started"
+  url = "/sdk/getting-started/finding-ip"
+
+[[sdk]]
+  name = "Hello World"
+  weight = 130
+  parent = "sdk-getting-started"
+  url = "/sdk/getting-started/hello-world"
+
+##################
+## First moves section
+##################
 
 [[sdk]]
   name = "First moves"
   weight = 20
-  url = "/sdk/first-moves/"
+  identifier = "sdk-first-moves"
+
+[[sdk]]
+  name = "Once you're connected"
+  weight = 200
+  parent = "sdk-first-moves"
+  url = "/sdk/first-moves/intro"
+
+[[sdk]]
+  name = "Safety first"
+  weight = 210
+  parent = "sdk-first-moves"
+  url = "/sdk/first-moves/safety"
+
+[[sdk]]
+  name = "Arms kinematics"
+  weight = 220
+  parent = "sdk-first-moves"
+  url = "/sdk/first-moves/kinematics"
+
+[[sdk]]
+  name = "Controlling the arm"
+  weight = 230
+  parent = "sdk-first-moves"
+  url = "/sdk/first-moves/arm"
+
+[[sdk]]
+  name = "Record and play trajectories"
+  weight = 240
+  parent = "sdk-first-moves"
+  url = "/sdk/first-moves/record"
+
+[[sdk]]
+  name = "Controlling the head"
+  weight = 250
+  parent = "sdk-first-moves"
+  url = "/sdk/first-moves/head"
+
+[[sdk]]
+  name = "Reachy's cameras"
+  weight = 260
+  parent = "sdk-first-moves"
+  url = "/sdk/first-moves/cameras"
+
+[[sdk]]
+  name = "Controlling the fans"
+  weight = 270
+  parent = "sdk-first-moves"
+  url = "/sdk/first-moves/fans"
+
+##################
+## Mobile base section
+##################
 
 [[sdk]]
   name = "Mobile base"
   weight = 30
-  url = "/sdk/mobile-base/"
+  identifier = "sdk-mobile-base"
+
+[[sdk]]
+  name = "Getting started with the mobile base"
+  weight = 300
+  parent = "sdk-mobile-base"
+  url = "/sdk/mobile-base/getting-started"
+
+[[sdk]]
+  name = "Moving the mobile base"
+  weight = 310
+  parent = "sdk-mobile-base"
+  url = "/sdk/mobile-base/moving-the-base"
+
+[[sdk]]
+  name = "Advanced"
+  weight = 320
+  parent = "sdk-mobile-base"
+  url = "/sdk/mobile-base/advanced"
+
+[[sdk]]
+  name = "Anti-collision safety"
+  weight = 330
+  parent = "sdk-mobile-base"
+  url = "/sdk/mobile-base/safety"
+
+[[sdk]]
+  name = "Using the mobile base without Reachy"
+  weight = 340
+  parent = "sdk-mobile-base"
+  url = "/sdk/mobile-base/mobile-base-alone"
+
+##################
+## Application section
+##################
 
 [[sdk]]
   name = "Application"
   weight = 40
-  url = "/sdk/application/"
+  identifier = "sdk-application"
+
+[[sdk]]
+  name = "Idle"
+  weight = 400
+  parent = "sdk-application"
+  url = "/sdk/application/idle"
+
+[[sdk]]
+  name = "Face tracking"
+  weight = 410
+  parent = "sdk-application"
+  url = "/sdk/application/face-tracking"
+
+##################
+## Appendix section
+##################
+
+[[sdk]]
+  name = "Appendix"
+  weight = 50
+  identifier = "sdk-appendix"
+
+[[sdk]]
+  name = "APIs"
+  weight = 500
+  parent = "sdk-appendix"
+  url = "/sdk/appendix/apis"
+
+[[sdk]]
+  name = "Support"
+  weight = 510
+  parent = "sdk-appendix"
+  url = "/sdk/appendix/support"
 
 #############################################
 # Menu main - add parts to main page nav menu here!
+#############################################
 
 [[main]]
   name = "Description"
@@ -282,25 +435,118 @@
 
 #############################################
 # Menu VR
+#############################################
+
+##################
+## Intro section
+##################
+
 [[vr]]
   name = "Introduction"
   weight = 10
-  url = "/vr/introduction/"
+  identifier = "vr-introduction"
+
+[[vr]]
+  name = "Introduction"
+  weight = 100
+  parent = "vr-introduction"
+  url = "vr/introduction/introduction"
+
+##################
+## Compatibility section
+##################
 
 [[vr]]
   name = "Compatibility"
   weight = 20
-  url = "/vr/compatibility/"
+  identifier = "vr-compatibility"
+
+[[vr]]
+  name = "Compatible headsets"
+  weight = 200
+  parent = "vr-compatibility"
+  url = "vr/compatibility/headsets"
+
+[[vr]]
+  name = "PC requirements"
+  weight = 210
+  parent = "vr-compatibility"
+  url = "vr/compatibility/pc-requirements"
+
+##################
+## Installation section
+##################
 
 [[vr]]
   name = "VR Installation"
   weight = 30
-  url = "/vr/installation/"
+  identifier = "vr-installation"
+
+[[vr]]
+  name = "What needs to be installed"
+  weight = 300
+  parent = "vr-installation"
+  url = "vr/installation/installation"
+
+##################
+## Using section
+##################
 
 [[vr]]
   name = "Using the app"
   weight = 40
-  url = "/vr/use-teleop/"
+  identifier = "vr-use"
+
+[[vr]]
+  name = "🚨 Best practice"
+  weight = 400
+  parent = "vr-use"
+  url = "vr/use-teleop/best-practice"
+
+[[vr]]
+  name = "Controllers inputs"
+  weight = 410
+  parent = "vr-use"
+  url = "vr/use-teleop/commands"
+
+[[vr]]
+  name = "Set Reachy ready"
+  weight = 420
+  parent = "vr-use"
+  url = "vr/use-teleop/prepare-robot"
+
+[[vr]]
+  name = "Teleoperate Reachy"
+  weight = 430
+  parent = "vr-use"
+  url = "vr/use-teleop/start"
+
+[[vr]]
+  name = "Teleoperation messages"
+  weight = 440
+  parent = "vr-use"
+  url = "vr/use-teleop/messages"
+
+##################
+## Problem section
+##################
+
+[[vr]]
+  name = "Problem"
+  weight = 50
+  identifier = "vr-problem"
+
+[[vr]]
+  name = "Debug"
+  weight = 500
+  parent = "vr-problem"
+  url = "vr/problem/debug"
+
+[[vr]]
+  name = "Support"
+  weight = 510
+  parent = "vr-problem"
+  url = "vr/problem/support-vr"
 
 #############################################
 # Menu help

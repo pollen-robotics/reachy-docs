@@ -27,7 +27,7 @@ For each application, it will be indicated whether the application is currently 
 
 > :warning: :warning: Be careful not to start multiple applications at the same time!
 
-Currently, only two autonomous applications are available: [Hello world] and [Face tracking].
+Currently, only two autonomous applications are available: [Idle]({{< ref "sdk/application/idle" >}}) and [Face tracking]({{< ref "sdk/application/face-tracking" >}}).
 
 ## Notes
 :bulb: If you want to developp your own Reachy's application and be able to control it on this page, you will have to define a service starting your application. The service name shoud start with *app_reachy_* --user mode.
