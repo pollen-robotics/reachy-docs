@@ -6,7 +6,6 @@ lastmod: 2023-08-21T16:09:09+02:00
 draft: false
 images: []
 type: docs
-weight: 300
 ---
 
 > Please note that the dashboard should be installed and its [main service enabled]({{< ref "/advanced/services/available#reachy_dashboardservice" >}}) by default on your Reachy.

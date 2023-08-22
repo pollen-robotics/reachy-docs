@@ -6,10 +6,6 @@ lastmod: 2023-07-25T16:34:00+02:00
 draft: false
 images: []
 type: docs
-menu:
-  dashboard:
-    parent: "introduction"
-weight: 110
 toc: true
 ---
 

@@ -1,5 +1,7 @@
 #############################################
 # Menu advanced
+#############################################
+
 [[advanced]]
   name = "Overview"
   weight = 10
@@ -139,24 +141,88 @@
 
 #############################################
 # Menu dashboard
+#############################################
+
+#######################
+## Introduction section
+#######################
 
 [[dashboard]]
   name = "Introduction"
   weight = 10
-  identifier = "introduction"
-  url = "/dashboard/introduction"
+  identifier = "dashboard-introduction"
+
+[[dashboard]]
+  name = "What is the dashboard?"
+  weight = 100
+  parent = "dashboard-introduction"
+  url = "/dashboard/introduction/introduction/"
+
+[[dashboard]]
+  name = "First connection"
+  weight = 110
+  parent = "dashboard-introduction"
+  url = "/dashboard/introduction/first-connection/"
+
+#######################
+## Content section
+#######################
 
 [[dashboard]]
   name = "Content"
   weight = 20
-  identifier = "content"
-  url = "/dashboard/content"
+  identifier = "dashboard-content"
+
+[[dashboard]]
+  name = "Debug"
+  weight = 200
+  parent = "dashboard-content"
+  url = "/dashboard/content/debug/"
+
+[[dashboard]]
+  name = "Dashboard"
+  weight = 210
+  parent = "dashboard-content"
+  url = "/dashboard/content/dashboard/"
+
+[[dashboard]]
+  name = "Wifi"
+  weight = 200
+  parent = "dashboard-content"
+  url = "/dashboard/content/wifi/"
+
+[[dashboard]]
+  name = "Services"
+  weight = 230
+  parent = "dashboard-content"
+  url = "/dashboard/content/services/"
+
+[[dashboard]]
+  name = "Applications"
+  weight = 240
+  parent = "dashboard-content"
+  url = "/dashboard/content/applications/"
+
+#######################
+## Installation section
+#######################
 
 [[dashboard]]
   name = "Installation"
   weight = 30
-  identifier = "installation"
-  url = "/dashboard/installation"
+  identifier = "dashboard-installation"
+
+[[dashboard]]
+  name = "Software installation"
+  weight = 300
+  parent = "dashboard-installation"
+  url = "/dashboard/installation/software/"
+
+[[dashboard]]
+  name = "Hardware to display Reachy's IP address"
+  weight = 310
+  parent = "dashboard-installation"
+  url = "/dashboard/installation/hardware/"
 
 #############################################
 # Menu SDK

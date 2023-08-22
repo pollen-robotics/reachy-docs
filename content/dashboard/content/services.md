@@ -6,11 +6,6 @@ lastmod: 2023-07-25T15:46:23+02:00
 draft: false
 images: []
 type: docs
-menu:
-  dashboard:
-    parent: "content"
-    identifier: "dashboard-services"
-weight: 230
 toc: true
 ---
 The page services is dedicated to the services setup for Reachy. Working with services has the advantage of having Reachy's code running automatically at boot whithout needing to open a terminal and start it yourself. However using the services can make debugging the robot more difficult because the code running for Reachy is "hidden", that is why we made this page.

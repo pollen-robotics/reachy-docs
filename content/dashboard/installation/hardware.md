@@ -7,7 +7,6 @@ draft: false
 type: docs
 images: []
 toc: true
-weight: 310
 ---
 
 > Please note that the LCD display screen should be installed in the back of the torso of your Reachy. You will need to take off Reachy's tee shirt to see it.

@@ -7,10 +7,6 @@ lastmod: 2023-07-25T15:46:41+02:00
 draft: false
 images: []
 type: docs
-menu:
-  dashboard:
-    parent: "content"
-weight: 240
 toc: true
 ---
 
