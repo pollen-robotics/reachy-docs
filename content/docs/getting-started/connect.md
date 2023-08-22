@@ -6,11 +6,6 @@ date: 2023-08-09T14:43:31+02:00
 lastmod: 2023-08-09T14:43:31+02:00
 draft: false
 images: []
-menu:
-  docs:
-    parent: "getting-started"
-    identifier: "connect"
-weight: 220
 toc: true
 ---
 ## Connect to the embedded computer

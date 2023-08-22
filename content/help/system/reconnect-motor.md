@@ -7,7 +7,6 @@ draft: false
 images: []
 type: docs
 toc: true
-hidden: true
 ---
 
 During manipulation or transportation, a motor cable of Reachy's arm might get disconnected.

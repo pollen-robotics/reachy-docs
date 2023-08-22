@@ -6,11 +6,6 @@ date: 2023-08-09T14:44:05+02:00
 lastmod: 2023-08-09T14:44:05+02:00
 draft: false
 images: []
-menu:
-  docs:
-    parent: ""
-    identifier: "network"
-weight: 230
 toc: true
 ---
 ## Hard-wired connection

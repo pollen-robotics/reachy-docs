@@ -6,10 +6,6 @@ lastmod: 2023-07-26T08:45:34+02:00
 draft: false
 images: []
 type: docs
-menu:
-  help:
-    parent: "safety"
-weight: 300
 toc: true
 ---
 

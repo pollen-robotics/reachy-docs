@@ -7,10 +7,6 @@ lastmod: 2023-07-26T08:44:51+02:00
 draft: false
 images: []
 type: docs
-menu:
-  help:
-    parent: help
-weight: 100
 toc: true
 ---
 

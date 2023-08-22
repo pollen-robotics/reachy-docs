@@ -6,11 +6,6 @@ date: 2023-08-09T14:45:20+02:00
 lastmod: 2023-08-09T14:45:20+02:00
 draft: false
 images: []
-menu:
-  docs:
-    parent: "installation"
-    identifier: "full-installation-process-57be755f819976bfac1a5067770eb250"
-weight: 210
 toc: true
 ---
 You decided to buy a **Full/Starter kit**, congratulations! You just saved a lot of time ;)

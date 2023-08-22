@@ -7,7 +7,6 @@ draft: false
 images: []
 type: docs
 toc: true
-hidden: true
 ---
 
 TODO: update

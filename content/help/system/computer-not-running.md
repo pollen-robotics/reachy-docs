@@ -7,7 +7,6 @@ draft: false
 images: []
 type: docs
 toc: true
-hidden: true
 ---
 
 ## Reachy's computer is off, even after pressing the on button

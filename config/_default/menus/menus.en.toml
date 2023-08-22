@@ -32,30 +32,110 @@
 
 #############################################
 # Menu docs
+#############################################
+
+##################
+## Getting started section
+##################
 
 [[docs]]
   name = "Getting started"
   weight = 10
-  identifier = "getting-started"
-  url = "/docs/getting-started/"
+  identifier = "docs-getting-started"
+
+[[docs]]
+  name = "Assemble mobile base + Reachy"
+  weight = 100
+  parent = "docs-getting-started"
+  url = "/docs/getting-started/mobile-base/"
+
+[[docs]]
+  name = "Attach your robot without a mobile base"
+  weight = 110
+  parent = "docs-getting-started"
+  url = "/docs/getting-started/attach/"
+
+[[docs]]
+  name = "Turn on your robot"
+  weight = 120
+  parent = "docs-getting-started"
+  url = "/docs/getting-started/turn-on/"
+
+[[docs]]
+  name = "Connect to the dashboard"
+  weight = 130
+  parent = "docs-getting-started"
+  url = "/docs/getting-started/dashboard/"
+
+[[docs]]
+  name = "Connect to your robot"
+  weight = 140
+  parent = "docs-getting-started"
+  url = "/docs/getting-started/connect/"
+
+[[docs]]
+  name = "Connect your robot to the network"
+  weight = 150
+  parent = "docs-getting-started"
+  url = "/docs/getting-started/network/"
+
+##################
+## Installation section
+##################
 
 [[docs]]
   name = "What needs to be installed"
   weight = 20
-  identifier = "installation"
-  url = "/docs/installation/"
+  identifier = "docs-installation"
 
 [[docs]]
-  name = "I have a problem!"
-  weight = 40
-  identifier = "debug"
-  url = "/docs/debug/"
+  name = "What needs to be installed"
+  weight = 200
+  parent = "docs-installation"
+  url = "/docs/installation/full-installation-process/"
+
+[[docs]]
+  name = "Use Reachy SDK"
+  weight = 210
+  parent = "docs-installation"
+  url = "/docs/installation/use-sdk/"
+
+[[docs]]
+  name = "Use VR teleoperation app"
+  weight = 220
+  parent = "docs-installation"
+  url = "/docs/installation/use-vr/"
+
+##################
+## Update section
+##################
 
 [[docs]]
   name = "Update Reachy"
   weight = 30
-  identifier = "update"
+  identifier = "docs-update"
+
+[[docs]]
+  name = "Update packages"
+  weight = 300
   url = "/docs/update/"
+  parent = "docs-update"
+
+##################
+## Support section
+##################
+
+[[docs]]
+  name = "I have a problem!"
+  weight = 40
+  identifier = "docs-problem"
+
+[[docs]]
+  name = "Support"
+  weight = 400
+  url = "/docs/debug/support/"
+  parent = "docs-problem"
+
 
 #############################################
 # Menu dashboard
@@ -158,17 +238,82 @@
 
 #############################################
 # Menu help
+#############################################
+
+################
+## Debug Section
+################
+
 [[help]]
-  name = "Help"
+  name = "Debug"
   weight = 10
-  identifier = "help"
+  identifier = "help-debug"
+
+[[help]]
+  name = "Check the dashboard"
+  weight = 100
+  parent="help-debug"
   url = "/help/debug/check-dashboard/"
+
+[[help]]
+  name = "Quick debug with the Python SDK"
+  weight = 110
+  parent="help-debug"
+  url = "/help/debug/python-sdk-error/"
+
+[[help]]
+  name = "FAQ"
+  weight = 120
+  parent="help-debug"
+  url = "/help/debug/faq/"
+
+[[help]]
+  name = "Support"
+  weight = 130
+  parent="help-debug"
+  url = "/help/debug/support/"
+
+#################
+## System section
+#################
 
 [[help]]
   name = "System"
   weight = 20
-  identifier = "system"
-  url = "/help/system/"
+  identifier = "help-system"
+
+[[help]]
+  name = "Finding Reachy's IP"
+  weight = 200
+  parent="help-system"
+  url = "/help/system/find-my-ip/"
+
+[[help]]
+  name = "Check which motors are connected"
+  weight = 210
+  parent="help-system"
+  url = "/help/system/discovery-tool/"
+
+#################
+## Safety section
+#################
+
+[[help]]
+  name = "Safety"
+  weight = 30
+  identifier = "help-safety"
+
+[[help]]
+  name = "Use Reachy properly"
+  weight = 300
+  parent="help-safety"
+  url = "/help/safety/correct-use/"
+
+[[help]]
+  name = "Use VR teleoperation"
+  weight = 310
+  parent="help-safety"
+  url = "/help/safety/vr-use/"
 
 #############################################
 [[social]]

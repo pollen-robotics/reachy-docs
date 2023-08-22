@@ -6,11 +6,6 @@ lastmod: 2023-07-25T15:46:07+02:00
 draft: false
 images: []
 type: docs
-menu:
-  docs:
-    parent: "dashboard"
-    identifier: "dashboard-wifi"
-weight: 220
 toc: true
 ---
 The wifi page of the dashboard lets you handle the network connection of the robot and typically looks like the following:

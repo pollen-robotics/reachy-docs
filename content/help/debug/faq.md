@@ -7,10 +7,6 @@ lastmod: 2023-07-26T08:45:11+02:00
 draft: false
 images: []
 type: docs
-menu:
-  help:
-    parent: help
-weight: 120
 toc: true
 ---
 Non exhaustive list of common questions from Reachy's users. 

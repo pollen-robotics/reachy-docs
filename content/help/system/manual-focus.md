@@ -7,7 +7,6 @@ draft: false
 images: []
 type: docs
 toc: true
-hidden: true
 ---
 
 If for some reason the autofocus implemented in Reachy did not work (due to dust in the lens for example), it is possible to focus the camera by hand. To do that, first connect to Reachy using reachy-sdk:

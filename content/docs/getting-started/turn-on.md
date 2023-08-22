@@ -6,11 +6,6 @@ date: 2023-08-09T14:44:11+02:00
 lastmod: 2023-08-09T14:44:11+02:00
 draft: false
 images: []
-menu:
-  docs:
-    parent: ""
-    identifier: "turn-on"
-weight: 210
 toc: true
 ---
 ## Full/Starter kit

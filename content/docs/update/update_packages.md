@@ -6,10 +6,6 @@ date: 2023-07-25T15:15:22+02:00
 lastmod: 2023-07-25T15:15:22+02:00
 draft: false
 images: []
-menu:
-  docs:
-    parent: "update"
-weight: 300
 toc: true
 ---
 

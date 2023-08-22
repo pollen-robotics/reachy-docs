@@ -6,11 +6,6 @@ date: 2023-08-09T14:45:28+02:00
 lastmod: 2023-08-09T14:45:28+02:00
 draft: false
 images: []
-menu:
-  docs:
-    parent: "installation"
-    identifier: "use-SDK-6b4b45c7d26249a03b10020505ad7574"
-weight: 220
 toc: true
 ---
 

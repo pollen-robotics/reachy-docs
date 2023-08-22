@@ -6,11 +6,6 @@ date: 2023-08-09T14:43:48+02:00
 lastmod: 2023-08-09T14:43:48+02:00
 draft: false
 images: []
-menu:
-  docs:
-    parent: "getting-started"
-    identifier: "dashboard"
-weight: 215
 toc: true
 ---
 We developed a dashboard to give you an overview of the state of your Reachy (which motors are detected, what services are running, what are the motors temperatures...) as well as giving you the possiblity to access quickly some features (changing a robot's part compliance for example).

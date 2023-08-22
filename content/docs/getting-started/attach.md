@@ -6,11 +6,6 @@ date: 2023-08-09T14:43:24+02:00
 lastmod: 2023-08-09T14:43:24+02:00
 draft: false
 images: []
-menu:
-  docs:
-    parent: "getting-started"
-    identifier: "attach"
-weight: 200
 toc: true
 ---
 

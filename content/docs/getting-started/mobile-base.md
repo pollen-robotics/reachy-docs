@@ -6,11 +6,6 @@ date: 2023-08-09T14:43:57+02:00
 lastmod: 2023-08-09T14:43:57+02:00
 draft: false
 images: []
-menu:
-  docs:
-    parent: "getting-started"
-    identifier: "mobile-base"
-weight: 190
 toc: true
 ---
 ## Assembly tools
