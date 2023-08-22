@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Getting Started on</title><link>https://doks-child-theme.netlify.app/docs/getting-started/</link><description>Recent content in Getting Started on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Tue, 25 Jul 2023 14:15:43 +0200</lastBuildDate><atom:link href="https://doks-child-theme.netlify.app/docs/getting-started/index.xml" rel="self" type="application/rss+xml"/><item><title>Turn on your robot</title><link>https://doks-child-theme.netlify.app/docs/getting-started/turn-on/</link><pubDate>Wed, 09 Aug 2023 14:44:11 +0200</pubDate><guid>https://doks-child-theme.netlify.app/docs/getting-started/turn-on/</guid><description>Full/Starter kit #
+Connect the power supply to the robot (g) placement on the [robot back interface].
+Orbita neck needs to start in a straight position for its initialization. To do so, position the head so that Reachy looks straight ahead. (Don’t worry, the position doesn’t need to be exact, it just has to be correctly oriented).
+You have two buttons behind the robot:
+(a) : turn on/off Reachy’s embedded computer (h) : turn on/off alimentation of Reachy’s motors Arm kit #
+Plug the power supply on your arm on element (1):</description></item><item><title>Connect your robot to the network</title><link>https://doks-child-theme.netlify.app/docs/getting-started/network/</link><pubDate>Wed, 09 Aug 2023 14:44:05 +0200</pubDate><guid>https://doks-child-theme.netlify.app/docs/getting-started/network/</guid><description>Hard-wired connection #
+For Full/Starter kit only:
+Use an ethernet cable to connect your robot to the network. The ethernet plug is available at position (b) on [Reachy’s hardware interface].
+The computer inside Reachy is configured to use DHCP. It should thus be directly accessible on your network.
+WiFi #
+For Full/Starter kit only:
+Reachy is equipped with a Wi-Fi module! You can then directly connect Reachy to your network wirelessly.</description></item><item><title>Assemble mobile base + Reachy</title><link>https://doks-child-theme.netlify.app/docs/getting-started/mobile-base/</link><pubDate>Wed, 09 Aug 2023 14:43:57 +0200</pubDate><guid>https://doks-child-theme.netlify.app/docs/getting-started/mobile-base/</guid><description>Assembly tools #
+You will need hex keys of size 3, 6 and 8 and a screwdriver for the assembly.
+Assembly video tutorial #
+Follow the instructions from the video below to learn how to aasemble the mobile base and Reachy together!
+To extract the mobile base from its shipping box, we recommand to remove the wood lid and use the internal handles
+Turn on your robot #
+To power up the robot, release the emergency button and press the mobile base button (next to the mobile base&amp;rsquo;s LCD screen).</description></item><item><title>Connect to the dashboard</title><link>https://doks-child-theme.netlify.app/docs/getting-started/dashboard/</link><pubDate>Wed, 09 Aug 2023 14:43:48 +0200</pubDate><guid>https://doks-child-theme.netlify.app/docs/getting-started/dashboard/</guid><description>We developed a dashboard to give you an overview of the state of your Reachy (which motors are detected, what services are running, what are the motors temperatures&amp;hellip;) as well as giving you the possiblity to access quickly some features (changing a robot&amp;rsquo;s part compliance for example).
+This tool has been thought to help you start easier with the robot and facilitate quick debugging.
+Follow the instructions on the dashboard first connection page to learn how to connect your Reachy to your wireless network without needing to plug a computer screen, keyboard or mouse.</description></item><item><title>Connect to your robot</title><link>https://doks-child-theme.netlify.app/docs/getting-started/connect/</link><pubDate>Wed, 09 Aug 2023 14:43:31 +0200</pubDate><guid>https://doks-child-theme.netlify.app/docs/getting-started/connect/</guid><description>Connect to the embedded computer #
+For Full/Starter kit only:
+Connect a screen, a mouse and a keyboard to Reachy.
+You can also access it via ssh. You will first need to know Reachy’s IP on your network. Then, using your own reachy-ip you can access it via:
+ssh reachy@&amp;lt;reachy-ip&amp;gt;
+Check ROS is providing access to the topics #
+Open a terminal on the computer, and enter:
+ros2 topic list
+Full/Starter kit topic list #
+You should see the following list:</description></item><item><title>Attach your robot without a mobile base</title><link>https://doks-child-theme.netlify.app/docs/getting-started/attach/</link><pubDate>Wed, 09 Aug 2023 14:43:24 +0200</pubDate><guid>https://doks-child-theme.netlify.app/docs/getting-started/attach/</guid><description>Full/Starter kit #
+The first thing to do before using your Reachy Full or Starter kit is to attach it safely.
+There are two options to do that:
+Using the metal bar included in Reachy&amp;rsquo;s package Attach the metal bar to a table or a flat support using one of the metal fixation and screws:
+If you don&amp;rsquo;t want to drill holes in your table, you can also use clamps between the table and the bottom part of the metal bar.</description></item></channel></rss>
