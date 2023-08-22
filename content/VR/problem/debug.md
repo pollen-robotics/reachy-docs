@@ -12,6 +12,7 @@ menu:
 weight: 650
 toc: true
 ---
+*This documentation is made for the teleoperation app version 1.0. This application is compatible with up-to-date Reachy 2021 and 2023.*  
 
 ## Check the info on the app!
 Connect to the robot to get more information on the connection status and the status of the robot. Open the "info" menu on the left of the mirror.
