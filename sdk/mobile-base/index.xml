@@ -16,4 +16,4 @@ However, to avoid having to use two different Python SDks when working on Reachy
 Overview #
 The drive mode impacts the way the mobile base accepts commands. We could say it&amp;rsquo;s the current state of the mobile base.
 In most cases, there is no need to think about these modes or to handle them in your code. Below are the most common use cases.
-If you want to use the set_speed method to spam speed commands (e.g. pilot the robot with a controller), the mode has to be manually changed to &amp;lsquo;cmd_vel&amp;rsquo;: reachy.</description></item></channel></rss>
+If you want to use the set_speed method to spam speed commands (e.g. pilot the robot with a controller), the mode has to be manually changed to &amp;lsquo;cmd_vel&amp;rsquo;: reachy_mobile.</description></item></channel></rss>
