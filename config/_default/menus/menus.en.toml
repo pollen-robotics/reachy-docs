@@ -343,7 +343,7 @@
   name = "Advanced"
   weight = 320
   parent = "sdk-mobile-base"
-  url = "/sdk/mobile-base/advanced"
+  url = "/sdk/mobile-base/drive-control-modes"
 
 [[sdk]]
   name = "Anti-collision safety"

@@ -15,15 +15,15 @@ The drive mode impacts the way the mobile base accepts commands. We could say it
 In most cases, there is no need to think about these modes or to handle them in your code. Below are the most common use cases.
 * If you want to use the set_speed method to spam speed commands (e.g. pilot the robot with a controller), the mode has to be manually changed to 'cmd_vel':
   ```python
-  reachy.mobile.drive_mode = 'cmd_vel'
+  reachy_mobile.mobile_base.drive_mode = 'cmd_vel'
   ```
 * If you want to push the robot easily, this will set the wheels in a compliancy state:
   ```python
-  reachy.mobile.drive_mode = 'free_wheel'
+  reachy_mobile.mobile_base.drive_mode = 'free_wheel'
   ```
 * On the contrary, if you want the robot to apply a passive resistance to movement, use:
   ```python
-  reachy.mobile.drive_mode = 'brake'
+  reachy_mobile.mobile_base.drive_mode = 'brake'
   ```
 
 You can use this [Jupyter Notebook](https://github.com/pollen-robotics/mobile-base-sdk/blob/main/mobile_base_sdk/examples/notebooks/drive-modes.ipynb) to explore the drive modes with your mobile base.
@@ -50,12 +50,12 @@ The control mode dictates the low level control strategy used by the mobile base
 Two control modes are possible:
 * ***open_loop*** (default mode): in this mode, the wheels are compliant and the control is smoother.
   ```python
-  reachy.mobile.control_mode = 'open_loop'
+  reachy_mobile.mobile_base.control_mode = 'open_loop'
   ```
 
 * ***pid***: in this mode, the wheels are stiff and the control is more precise.
   ```python
-  reachy.mobile.control_mode = 'pid'
+  reachy_mobile.mobile_base.control_mode = 'pid'
   ```
 :bulb: We recommend that you run the following [Jupyter Notebook](https://github.com/pollen-robotics/mobile-base-sdk/blob/main/mobile_base_sdk/examples/notebooks/control-modes.ipynb) to get a feel of what the control mode does.
 

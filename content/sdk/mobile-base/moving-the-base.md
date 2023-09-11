@@ -26,7 +26,7 @@ The odom frame is a **world-fixed frame**. The position (x, y, theta) of the rob
 
 The initial position of the odom frame matches the position of the robot when the HAL was started. The odom frame can also be reset to the current position of the robot using:
   ```python
-  reachy.mobile.reset_odometry()
+  reachy_mobile.mobile_base.reset_odometry()
   ```
 
 
