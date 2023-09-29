@@ -655,6 +655,7 @@ get the joint states and forward position controllers use Rviz subscribe to vari
 Custom gRPC client #If you want to use another language than Python, for instance to integrate Reachy\u0026rsquo;s control within an existing code base, you can write your own gRPC client. Our API is available here.
 The API is used both by the Python SDK and the VR App.
 `}),e.add({id:75,href:"/sdk/getting-started/install/",title:"Installation",description:"How to install the Python SDK, either from PyPi or directly from sources.",content:`How to install the Python SDK #The Python SDK is a pure Python library. The installation should thus be rather straightforward. It supports Python \u0026gt;= 3.6 (older versions may work but are not officially supported). It works on Windows/Mac/Linux.
+⚠️ SDK versions prior to 0.7.0 are incompatible with Reachy 2023.
 We recommend to use virtual environment for your development. They make the installation simple and avoid compatibility issues. They also come with their pip command.
 From PyPi #pip3 install reachy-sdkFrom the source #git clone https://github.com/pollen-robotics/reachy-sdkpip3 install -e reachy-sdkDependencies #The SDK relies on a few third-party Python packages:
 numpy - mostly for trajectory computation opencv - for camera frame access grpc - to connect to the robot They will be installed automatically when you install the SDK.

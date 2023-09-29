@@ -3,11 +3,8 @@ The Python SDK lets you easily control and program a Reachy robot. It is used to
 It is designed to:
 let you start controlling your robot in a few lines of codes, allow to focus on your application and not on hardware synchronisation issues, facilitate fast prototyping and iteration.</description></item><item><title>Installation</title><link>https://docs.pollen-robotics.com/sdk/getting-started/install/</link><pubDate>Tue, 25 Jul 2023 18:50:10 +0200</pubDate><guid>https://docs.pollen-robotics.com/sdk/getting-started/install/</guid><description>How to install the Python SDK #
 The Python SDK is a pure Python library. The installation should thus be rather straightforward. It supports Python &amp;gt;= 3.6 (older versions may work but are not officially supported). It works on Windows/Mac/Linux.
-We recommend to use virtual environment for your development. They make the installation simple and avoid compatibility issues. They also come with their pip command.
-From PyPi #
-pip3 install reachy-sdk
-From the source #
-git clone https://github.</description></item><item><title>Hello World</title><link>https://docs.pollen-robotics.com/sdk/getting-started/hello-world/</link><pubDate>Tue, 25 Jul 2023 18:50:04 +0200</pubDate><guid>https://docs.pollen-robotics.com/sdk/getting-started/hello-world/</guid><description>Now you should be able to connect to your Reachy and check that everything is ok. As we spoiled in the previous section, to connect to your robot, you simply need to run the following code:
+⚠️ SDK versions prior to 0.7.0 are incompatible with Reachy 2023.
+We recommend to use virtual environment for your development. They make the installation simple and avoid compatibility issues. They also come with their pip command.</description></item><item><title>Hello World</title><link>https://docs.pollen-robotics.com/sdk/getting-started/hello-world/</link><pubDate>Tue, 25 Jul 2023 18:50:04 +0200</pubDate><guid>https://docs.pollen-robotics.com/sdk/getting-started/hello-world/</guid><description>Now you should be able to connect to your Reachy and check that everything is ok. As we spoiled in the previous section, to connect to your robot, you simply need to run the following code:
 from reachy_sdk import ReachySDK
 # Replace with the actual IP you've found.
 reachy = ReachySDK(host='the.reachy.ip.found.')
