@@ -14,6 +14,8 @@ toc: true
 
 The Python SDK is a pure Python library. The installation should thus be rather straightforward. It supports Python >= 3.6 (older versions may work but are not officially supported). It works on Windows/Mac/Linux.
 
+⚠️ *SDK versions prior to 0.7.0 are incompatible with Reachy 2023.*
+
 We recommend to use [virtual environment](https://docs.python.org/3/tutorial/venv.html) for your development. They make the installation simple and avoid compatibility issues. They also come with their [pip](https://pip.pypa.io/en/stable/) command.
 
 ### From PyPi
