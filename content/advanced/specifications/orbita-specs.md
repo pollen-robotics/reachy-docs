@@ -39,7 +39,7 @@ toc: true
 **Diameter:** 22mm  
 **Height:** 75mm  
 
-<a href="/assets/files/ECXTQ22M-24V_GPX22C-35_1.pdf" download>Motor's full specification here</a>  
+<a href="https://github.com/pollen-robotics/reachy-docs/blob/main/assets/files/ECXTQ22M-24V_GPX22C-35_1.pdf" download>Motor's full specification here</a>  
 
 
 ## Degrees of freedom
