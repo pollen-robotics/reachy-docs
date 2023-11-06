@@ -7,7 +7,7 @@ lastmod: 2020-10-06T08:47:36+00:00
 draft: false
 images: []
 ---
-{{< my-button-new-page link="https://discord.gg/vnYD6GAqJR" label="Join Pollen Community on Discord!" >}}  
+{{< my-button-new-page link="https://forum.pollen-robotics.com/" label="Join Pollen Community on our forum!" >}}  
 
 <br />  
 <br />  
