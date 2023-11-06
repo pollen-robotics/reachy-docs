@@ -10,7 +10,7 @@ type: docs
 toc: true
 ---
 Non exhaustive list of common questions from Reachy's users. 
-If you don't see yours in it, don't hesitate to drop a message on our support channel on [Discord](https://discord.gg/vnYD6GAqJR)!
+If you don't see yours in it, don't hesitate to open a topic on our [Forum](https://forum.pollen-robotics.com/)!
 
 <br/>
 
