@@ -20,7 +20,7 @@ To use it natively, choose one of the following options to install it.
 
 ### From the Quest Store
 
-Contact us on our [discord channel](https://discord.com/channels/519098054377340948/991321051835404409) to be added to the list of the beta testers.
+Contact us at support@pollen-robotics.com to be added to the list of the beta testers.
 
 ### Using the apk
 

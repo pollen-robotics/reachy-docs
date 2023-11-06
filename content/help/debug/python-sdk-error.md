@@ -121,4 +121,4 @@ $ systemctl --user stop reachy_sdk_server.service
 $ bash ~/reachy_ws/src/reachy_2023/reachy_sdk_server/launch.bash
 ```
 
-Don't hesitate to send the output of *launch.bash* on the support channel of [Pollen Community](https://discord.gg/vnYD6GAqJR) on Discord, a team member of Pollen will help you debug it.
+Don't hesitate to put the output of *launch.bash* in a new topic of [our forum](https://forum.pollen-robotics.com/), a team member of Pollen will help you debug it.
