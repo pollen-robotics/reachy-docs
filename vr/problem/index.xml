@@ -3,7 +3,7 @@ Connect to the robot to get more information on the connection status and the st
 The connection status give you information about the communication with the robot. Existing connection status are the following:
 Connected to a remote Reachy (green): everything seems to be working fine Connected to a remote Reachy. No restart available (yellow): you do not have access to the restart service, but can use normally teleoperation Connected to a remote Reachy.</description></item><item><title>Support VR</title><link>https://docs.pollen-robotics.com/vr/problem/support-vr/</link><pubDate>Wed, 26 Jul 2023 09:00:44 +0200</pubDate><guid>https://docs.pollen-robotics.com/vr/problem/support-vr/</guid><description>FAQ #
 Check if your question is part of our FAQ.
-Discord #
-Join our Discord if you have any questions, maybe someone has already asked the same question or other people could benefit from the answer!
-👉 Any questions relative to your development with Reachy?Join the Pollen Community on Discord Pollen Robotics support #
+Forum #
+Join our Forum if you have any questions, maybe someone has already asked the same question or other people could benefit from the answer!
+👉 Any questions relative to your development with Reachy?Go to Pollen Community Pollen Robotics support #
 For any specific questions concerning your robot or if you meet problems with the product, please contact us at support@pollen-robotics.</description></item></channel></rss>
